@@ -1,0 +1,190 @@
+The device with the ID 0 will process the graph
+The edge is 0, 1, 0.200000
+The edge is 0, 2, 0.300000
+The edge is 0, 3, 0.400000
+The edge is 0, 4, 0.500000
+The edge is 1, 2, 0.600000
+The edge is 1, 3, 0.700000
+The edge is 2, 4, 0.800000
+The number of vertices is 5
+Input graph collected with 32 vertices and 7 edges.
+
+Init Monte Carlo Sampling (Finding K)...
+
+Reading Source-Target file...
+The source-target query pairs are: 
+	 0 -> 1 
+	 1 -> 2 
+	 2 -> 4 
+The number of concurrent query is 3
+
+k = 100
+0th iteration
+Current utilize : K=100 possible world.
+Reliability Estimator, R^ (0, 1) = 0.23
+Execution time = 14 ms
+
+0th iteration
+Current utilize : K=100 possible world.
+Reliability Estimator, R^ (1, 2) = 0.56
+Execution time = 22 ms
+
+0th iteration
+Current utilize : K=100 possible world.
+Reliability Estimator, R^ (2, 4) = 0.96
+Execution time = 10 ms
+
+
+k = 200
+0th iteration
+Current utilize : K=200 possible world.
+Reliability Estimator, R^ (0, 1) = 0.15
+Execution time = 8 ms
+
+0th iteration
+Current utilize : K=200 possible world.
+Reliability Estimator, R^ (1, 2) = 0.71
+Execution time = 11 ms
+
+0th iteration
+Current utilize : K=200 possible world.
+Reliability Estimator, R^ (2, 4) = 0.91
+Execution time = 10 ms
+
+
+k = 300
+0th iteration
+Current utilize : K=300 possible world.
+Reliability Estimator, R^ (0, 1) = 0.193333
+Execution time = 8 ms
+
+0th iteration
+Current utilize : K=300 possible world.
+Reliability Estimator, R^ (1, 2) = 0.7
+Execution time = 15 ms
+
+0th iteration
+Current utilize : K=300 possible world.
+Reliability Estimator, R^ (2, 4) = 0.886667
+Execution time = 15 ms
+
+
+k = 400
+0th iteration
+Current utilize : K=400 possible world.
+Reliability Estimator, R^ (0, 1) = 0.2
+Execution time = 11 ms
+
+0th iteration
+Current utilize : K=400 possible world.
+Reliability Estimator, R^ (1, 2) = 0.665
+Execution time = 21 ms
+
+0th iteration
+Current utilize : K=400 possible world.
+Reliability Estimator, R^ (2, 4) = 0.88
+Execution time = 20 ms
+
+
+k = 500
+0th iteration
+Current utilize : K=500 possible world.
+Reliability Estimator, R^ (0, 1) = 0.184
+Execution time = 13 ms
+
+0th iteration
+Current utilize : K=500 possible world.
+Reliability Estimator, R^ (1, 2) = 0.686
+Execution time = 26 ms
+
+0th iteration
+Current utilize : K=500 possible world.
+Reliability Estimator, R^ (2, 4) = 0.856
+Execution time = 26 ms
+
+
+k = 600
+0th iteration
+Current utilize : K=600 possible world.
+Reliability Estimator, R^ (0, 1) = 0.19
+Execution time = 16 ms
+
+0th iteration
+Current utilize : K=600 possible world.
+Reliability Estimator, R^ (1, 2) = 0.67
+Execution time = 32 ms
+
+0th iteration
+Current utilize : K=600 possible world.
+Reliability Estimator, R^ (2, 4) = 0.871667
+Execution time = 32 ms
+
+
+k = 700
+0th iteration
+Current utilize : K=700 possible world.
+Reliability Estimator, R^ (0, 1) = 0.217143
+Execution time = 19 ms
+
+0th iteration
+Current utilize : K=700 possible world.
+Reliability Estimator, R^ (1, 2) = 0.664286
+Execution time = 35 ms
+
+0th iteration
+Current utilize : K=700 possible world.
+Reliability Estimator, R^ (2, 4) = 0.861429
+Execution time = 36 ms
+
+
+k = 800
+0th iteration
+Current utilize : K=800 possible world.
+Reliability Estimator, R^ (0, 1) = 0.2025
+Execution time = 22 ms
+
+0th iteration
+Current utilize : K=800 possible world.
+Reliability Estimator, R^ (1, 2) = 0.67625
+Execution time = 41 ms
+
+0th iteration
+Current utilize : K=800 possible world.
+Reliability Estimator, R^ (2, 4) = 0.8825
+Execution time = 42 ms
+
+
+k = 900
+0th iteration
+Current utilize : K=900 possible world.
+Reliability Estimator, R^ (0, 1) = 0.2
+Execution time = 24 ms
+
+0th iteration
+Current utilize : K=900 possible world.
+Reliability Estimator, R^ (1, 2) = 0.688889
+Execution time = 46 ms
+
+0th iteration
+Current utilize : K=900 possible world.
+Reliability Estimator, R^ (2, 4) = 0.893333
+Execution time = 45 ms
+
+
+k = 1000
+0th iteration
+Current utilize : K=1000 possible world.
+Reliability Estimator, R^ (0, 1) = 0.197
+Execution time = 26 ms
+
+0th iteration
+Current utilize : K=1000 possible world.
+Reliability Estimator, R^ (1, 2) = 0.685
+Execution time = 53 ms
+
+0th iteration
+Current utilize : K=1000 possible world.
+Reliability Estimator, R^ (2, 4) = 0.89
+Execution time = 51 ms
+
+Done.

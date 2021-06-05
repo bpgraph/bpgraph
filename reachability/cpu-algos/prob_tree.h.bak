@@ -1,0 +1,339 @@
+/*************************************************************************
+    > File Name: prob_tree.h
+    > Author: ZhangHeng
+    > Mail: heng200888@163.com 
+*/
+
+#ifndef PROB_TREE_H_
+#define PROB_TREE_H_
+
+
+namespace CPU_ALGOS{
+
+
+struct Bag{
+	std::string* bag_name;
+	std::unordered_set<uint>* nodes;
+	std::unordered_set<uint>* covered_nodes;
+	std::unordered_set<uint>* uncovered_nodes;
+	std::unordered_set<Bag*>* children;
+	Bag* parent;
+	Bag::Bag(std::string* bbag_name){
+		this->bag_name = bbag_name;
+		parent = NULL;
+		nodes = new std::unordered_set<NodeIdType>();
+		covered_nodes = new std::unordered_set<NodeIdType>();
+		uncovered_nodes = new std::unordered_set<NodeIdType>();
+		children = new std::unordered_set<Bag*>();
+	};
+
+	void add_node_to_bag(uint node){
+		nodes->insert(node);
+	};
+	void cover_node(uint node){
+		covered_nodes->insert(node);
+		uncovered_nodes->erase(node);
+	}
+
+	void uncover_node(uint node){
+		uncovered_nodes->insert(node);
+		covered_nodes->erase(node);
+	}
+};
+
+void remove_from_degrees(
+	uint node, std::vector<initial_vertex> & in_edges,
+	std::unordered_map<uint , std::unordered_set<uint>*> & degrees,
+	std::unordered_map<uint , uint> & node_degrees,
+	std::unordered_set<uint>* covered){
+    unsigned long degree = node_degrees[node];
+    //for(auto node_neigh:*(graph->get_neighbours(node))){
+	for( auto nbr : in_edges.at(node).nbrs){
+        uint node_in = nbr.srcIndex;
+        if(covered->find(node_in)==covered->end()){
+            unsigned long degree_in = node_degrees[node_in];
+            node_degrees.erase(node_in);
+            degrees[degree_in]->erase(node_in);
+            degree_in--;
+            node_degrees[node_in] = degree_in;
+            if(degrees.find(degree_in)==degrees.end())
+                degrees[degree_in] = new std::unordered_set<uint>();
+            degrees[degree_in]->insert(node_in);
+        }
+    }
+    node_degrees.erase(node);
+    degrees[degree]->erase(node);
+}
+
+void reduce_bag_from_node(uint node, std::vector<initial_vertex> & in_edges,
+	std::unordered_map<uint , std::unordered_set<uint>*> & degrees,
+	std::unordered_map<uint , uint> & node_degrees,
+	std::unordered_set<uint>* covered){
+    std::ostringstream bag_name;
+    bag_name << "bag_" << (number_bags)++;
+    std::string* bag_name_str = new std::string(bag_name.str());
+    Bag* bag = new Bag(bag_name_str);
+    std::vector<uint> outside_nodes;
+    //add all nodes in bag and remove the original node from the graph
+//    for(auto edge:*(graph->get_neighbours(node))){ 
+	for( auto nbr : in_edges.at(node).nbrs){
+        if((covered->find(nbr.srcIndex)==covered->end()) && (nbr.srcIndex != node)){
+            bag->add_node_to_bag(nbr.srcIndex);
+            bag->uncover_node(nbr.srcIndex);
+            outside_nodes.push_back(nbr.srcIndex);
+        }
+    }
+    bag->add_node_to_bag(node);
+    remove_from_degrees(node, in_edges, degrees, node_degrees, covered); //remove from degrees & modify the dgrees of neighbors
+    bag->cover_node(node);
+	in_edges.erase(node);// TODO: graph->remove_node(node);
+    covered->insert(node);
+    //add clique between outside_nodes;
+    for(uint node_first : outside_nodes){
+        unsigned long degree_node_first = node_degrees[node_first];
+        for(uint node_second : outside_nodes){
+            if(node_first < node_second){
+                unsigned long degree_node_second = node_degrees[node_second];
+                bool found = false;
+                auto neighbourhood = in_edges.at(node_first).nbrs;//graph->get_neighbours(node_first);
+                if(neighbourhood != nullptr){
+                    for(auto node_neigh: neighbourhood){
+                        if(node_neigh.srcIndex ==node_second){
+                            found = true;
+                            break;
+                        }
+                    }
+                }
+                if(!found){
+//TODO!!!!!
+					EdgeType* out = new EdgeType;
+					out->first = key_second;    //first: NodeIdType
+					out->second = value;    // second: DistanceDistribution
+					out->third = false; 
+					(*undirected[key_first])[out->first]=out; // undirected: EdgeMap
+
+					graph->add_undirected_edge(node_first, node_second, undirected_distribution);
+                    graph->add_undirected_edge(node_second, node_first, undirected_distribution);
+                    increase_degree(node_first, degree_node_first);
+                    increase_degree(node_second, degree_node_second);
+                }
+            }
+        }
+    }
+    //add edges to bag
+    move_edges_to_bag(bag);
+    bags->push_back(bag);
+    bag_map[*bag_name_str] = bag;
+}
+
+
+//std::vector<uint> get_node_vector(std::vector<initial_vertex> & graph){
+//    std::vector<uint> nodes;
+//    for(auto kv : outgoing) nodes.push_back(kv.first);
+//    return nodes;
+//};
+
+void build_fwd_tree(std::vector<initial_vertex> & graph, uint nEdges, int width_){
+	std::vector<Bag*>* bags;
+	Bag* root_bag;
+	int number_bags, height, width, treewidth;
+	std::unordered_map<uint , std::unordered_set<uint>*> degrees;
+	std::unordered_map<uint , uint> node_degrees; // <NodeId, #degree>
+	std::unordered_set<uint>* covered;
+	std::vector<initial_vertex> in_edges;
+	in_edges.assign(graph.begin(), graph.end());
+
+	width = wwidth;
+	std::cout << "decomposing graph (w=" << wwidth << ")... " << std::flush;
+	timestamp_t t0, t1;
+    float time_msec;
+    t0 = get_timestamp();
+    for(uint node_id =0; node_id < graph.size(); node_id++) { // for every node
+        unsigned long degree = graph.at(node_id).nbrs.size();
+        if(degrees.find(degree)==degrees.end()) 
+			degrees[degree]=new std::unordered_set<uint>(); //degrees store <degree, nodeId>
+        degrees[degree]->insert(node_id);
+        node_degrees[node_id]=degree;
+    }
+    //main loop of tree decomposition
+    for(int d=1; d<=width; d++)
+        while((degrees.find(d)!=degrees.end()) && (degrees[d]->size()>0)){
+                reduce_bag_from_node(*(degrees[d]->begin()), in_edges, degrees, node_degrees, covered);
+        }
+    t1 = get_timestamp();
+    time_msec = (t1-t0)/1000000.0L;
+    std::cout << "done in " << time_msec << "(sec)" << std::endl;
+    std::cout << "found " << bags->size() << " bags" << std::endl;
+    std::cout << "creating root bag... " << std::flush;
+    t0 = get_timestamp();
+    //writing the root bag
+    std::ostringstream bag_name;
+    bag_name << "root";
+    std::string* bag_name_str = new std::string(bag_name.str());
+    Bag* bag = new Bag(bag_name_str);
+    for(NodeIdType node:graph->get_node_vector()){
+        if(covered->find(node)==covered->end()){
+            bag->add_node_to_bag(node);
+            bag->cover_node(node);
+        }
+    }
+    root_bag = bag;
+    //add bag to list
+    //std::cout << std::endl << "root bag" << std::endl;
+    //bag->list_bag_nodes();
+    move_edges_to_bag(bag);
+    bag_map["root"] = bag;
+    t1 = get_timestamp();
+    time_msec = (t1-t0)/1000000.0L;
+    std::cout << "done in " << time_msec << "(sec)" << std::endl;
+    
+    //creating the tree;
+    t0 = get_timestamp();
+    std::cout << "creating tree links... " << std::flush;
+    create_tree();
+    t1 = get_timestamp();
+    time_msec = (t1-t0)/1000000.0L;
+    std::cout << "done in " << time_msec << "(sec)" << std::endl;
+    std::cout << "width=" << width << " height=" << height << std::endl;
+    //propagating upwards
+    t0 = get_timestamp();
+    std::cout << "computing and propagating... " << std::flush;
+    propagate_computations();
+    t1 = get_timestamp();
+    time_msec = (t1-t0)/1000000.0L;
+    std::cout << "done in " << time_msec << "(sec)" << std::endl;
+    //writing decomposition
+    t0 = get_timestamp();
+    std::cout << "writing to disk... " << std::flush;
+    write_decomposition();
+    t1 = get_timestamp();
+    time_msec = (t1-t0)/1000000.0L;
+    std::cout << "done in " << time_msec << "(sec)" << std::endl;
+
+}
+
+
+void findkProbTree()
+{
+	std::cout << "Input dir of Index: " << std::endl << std::flush;
+	// Get dir of index
+	std::string file_name_decomp(FileIO::getFilePath());
+	std::cout<< "Start to process graph file: "<< file_name_decomp << std::endl;
+	TreeDecomposition decomp(file_name_decomp); // graph prob diretory
+	Bag* root_bag = decomp.get_root(); // return root_bag;
+
+	std::cout << std::endl << "Reading Source-Target file..." << std::endl;
+	std::vector<std::pair<VertexDescr, VertexDescr>> source_target_pairs = FileIO::readSourceTargetFile(FileIO::getFilePath());
+
+	// Get graph name
+	std::cout << "Graph name: ";
+	std::string graph_name;
+	std::cin >> graph_name;
+	std::cout << std::endl;
+
+	int samples = 0;
+	NodeIdType source, target;
+	int pairs = 0;
+	ShortestPathSampler sampler;
+	double reliability = 0.0;
+	std::vector<double> reliability_k, reliability_j;
+	double avg_r = 0.0;
+	double diff_sq_sum = 0.0;
+	bool write_flag = true;
+
+	// Start up Memory Monitor daemon thread
+	MemoryMonitor mm = MemoryMonitor();
+	std::thread t1(&MemoryMonitor::updatePeakMemory, std::ref(mm));
+	t1.detach();
+
+	while (samples < constants::kMaximumRound) {
+		// Step up k
+		samples += constants::kKStepUp;
+		std::cout << std::endl << "k = " << samples << std::endl;
+
+		// Reset var
+		reliability_k.clear();
+
+		for (size_t i = 0; i < source_target_pairs.size(); i++) {
+			source = source_target_pairs[i].first;
+			target = source_target_pairs[i].second;
+
+			// Reset var
+			reliability_j.clear();
+			diff_sq_sum = 0.0;
+			write_flag = true;
+
+			for (int j = 0; j < constants::kRepeatForVariance; j++) {
+				std::cout << j << "th iteration" << std::endl;
+
+				// Start time
+				auto start = std::chrono::high_resolution_clock::time_point::max();
+				auto finish = std::chrono::high_resolution_clock::time_point::max();
+				start = std::chrono::high_resolution_clock::now();
+				mm.startMonitoring();
+
+				NodeIdType src, tgt;
+				src = tgt = -1;
+				bool good_tree = true;
+				if (!root_bag->has_node(source)) src = source;
+				if (!root_bag->has_node(target)) tgt = target;
+				int hit_bags = 0;
+				try {
+					if ((src != -1) || (tgt != -1)) hit_bags = decomp.redo_computations(src, tgt);
+				}
+				catch (int e) {
+					std::cerr << "exception " << e << "caught in " << src << "->" << \
+						tgt << " - skipping" << std::endl;
+					good_tree = false;
+				}
+				std::cout << "s-t pairs: " << source << "\t" << target << std::endl << std::flush;
+				DistanceDistribution *dist = nullptr;
+				if (good_tree) {
+					try {
+						dist = sampler.sample(root_bag, source, target, samples);
+					}
+					catch (int e) {
+						std::cerr << "exception " << e << "caught in " << src << "->"\
+							<< tgt << " - skipping" << std::endl;
+						dist = new DistanceDistribution();
+					}
+				}
+				else
+					dist = new DistanceDistribution();
+				reliability = sampler.get_reached() / (double)samples;
+
+				// Stop time
+				finish = std::chrono::high_resolution_clock::now();
+				//auto duration = std::chrono::duration_cast<std::chrono::seconds>(finish - start).count();
+				auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(finish - start).count();
+
+				std::cout << "Reliability Estimator, R^ (" << source << ", " << target << ") = " << reliability << std::endl;
+				std::cout << "Execution time = " << duration << " ms" << std::endl << std::endl;
+
+				if (write_flag) {
+					// Write interim results into csv
+					FileIO::appendResultstoFile(samples, reliability, duration, mm.getPeakMemory(), graph_name + "_ProbTree_k_" + std::to_string(i) + ".csv");
+					write_flag = false;
+				}
+
+				// Add r to vector
+				reliability_j.push_back(reliability);
+
+				delete dist;
+			}
+
+			// Variance calculation
+			avg_r = ConvergenceHelper::getAvgReliability(reliability_j);
+			for (int j = 0; j < constants::kRepeatForVariance; j++) {
+				auto difference_sq = pow(reliability_j[j] - avg_r, 2);
+				diff_sq_sum += difference_sq;
+			}
+			FileIO::appendResultstoFile(samples, diff_sq_sum / (constants::kRepeatForVariance - 1), 0, i, graph_name + "_ProbTree_variance.csv");
+		}
+	}
+	mm.stopMonitoring();
+}
+
+}
+
+#endif

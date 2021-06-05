@@ -1,0 +1,1 @@
+bin/bpgraph --edgelist ../dataset/NetHept/hep_uniform_5.txt --stlist ../st_toy.txt

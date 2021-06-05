@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/zh/UG/build",
+  "command": "/usr/bin/g++-5   -I/usr/local/cuda/include -I/usr/local/include -I/usr/local/cuda-10.0/include   -O0 -Wall -g -ggdb   -std=gnu++11 -o CMakeFiles/bpgraph.dir/main.cpp.o -c /home/zh/UG/main.cpp",
+  "file": "/home/zh/UG/main.cpp"
+}
+]

@@ -1,0 +1,5033 @@
+The device with the ID 0 will process the graph
+The number of vertices is 15233
+Input graph collected with 15264 vertices and 62774 edges.
+
+Init Monte Carlo Sampling (Finding K)...
+
+Reading Source-Target file...
+The source-target query pairs are: 
+	 0 -> 8 
+	 0 -> 12479 
+The number of concurrent query is 2
+k = 5
+add 0
+v's degree 3, size of worklist: 1
+0 
+w is 1, exporled = 0
+Explore insert 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 0
+Explore insert 4
+add 4
+v's degree 37, size of worklist: 3
+0 1 4 
+w is 1, exporled = 1
+w is 5, exporled = 0
+Explore insert 5
+add 5
+v's degree 19, size of worklist: 4
+0 1 4 5 
+w is 4, exporled = 1
+WARN: exceed diameter=3 
+w is 66, exporled = 0
+Explore insert 66
+add 66
+v's degree 43, size of worklist: 4
+0 1 4 66 
+w is 5, exporled = 1
+WARN: exceed diameter=3 
+w is 19, exporled = 0
+Explore insert 19
+add 19
+v's degree 29, size of worklist: 4
+0 1 4 19 
+w is 18, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 18
+add 18
+v's degree 6, size of worklist: 4
+0 1 4 18 
+w is 19, exporled = 1
+WARN: exceed diameter=3 
+w is 20, exporled = 0
+Explore insert 20
+add 20
+v's degree 15, size of worklist: 4
+0 1 4 20 
+w is 18, exporled = 1
+WARN: exceed diameter=3 
+w is 19, exporled = 1
+w is 66, exporled = 1
+w is 90, exporled = 0
+Explore insert 90
+add 90
+v's degree 16, size of worklist: 4
+0 1 4 90 
+w is 20, exporled = 1
+WARN: exceed diameter=3 
+w is 89, exporled = 0
+Explore insert 89
+add 89
+v's degree 15, size of worklist: 4
+0 1 4 89 
+w is 34, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 34
+add 34
+v's degree 3, size of worklist: 4
+0 1 4 34 
+w is 35, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 35
+add 35
+v's degree 3, size of worklist: 4
+0 1 4 35 
+w is 34, exporled = 1
+WARN: exceed diameter=3 
+w is 36, exporled = 0
+Explore insert 36
+add 36
+v's degree 24, size of worklist: 4
+0 1 4 36 
+w is 34, exporled = 1
+WARN: exceed diameter=3 
+w is 35, exporled = 1
+w is 68, exporled = 0
+Explore insert 68
+add 68
+v's degree 18, size of worklist: 4
+0 1 4 68 
+w is 3, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 3
+add 3
+v's degree 12, size of worklist: 4
+0 1 4 3 
+w is 2, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 2
+add 2
+v's degree 1, size of worklist: 4
+0 1 4 2 
+w is 3, exporled = 1
+WARN: exceed diameter=3 
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 0
+Explore insert 14
+add 14
+v's degree 53, size of worklist: 3
+0 1 14 
+w is 1, exporled = 1
+w is 4, exporled = 1
+w is 13, exporled = 0
+Explore insert 13
+add 13
+v's degree 4, size of worklist: 4
+0 1 14 13 
+w is 14, exporled = 1
+WARN: exceed diameter=3 
+w is 15, exporled = 0
+Explore insert 15
+add 15
+v's degree 42, size of worklist: 4
+0 1 14 15 
+w is 0, exporled = 1
+WARN: exceed diameter=3 
+w is 13, exporled = 1
+w is 14, exporled = 1
+w is 26, exporled = 0
+Explore insert 26
+add 26
+v's degree 37, size of worklist: 4
+0 1 14 26 
+w is 15, exporled = 1
+WARN: exceed diameter=3 
+w is 27, exporled = 0
+Explore insert 27
+add 27
+v's degree 52, size of worklist: 4
+0 1 14 27 
+w is 1, exporled = 1
+WARN: exceed diameter=3 
+w is 14, exporled = 1
+w is 15, exporled = 1
+w is 26, exporled = 1
+w is 86, exporled = 0
+Explore insert 86
+add 86
+v's degree 25, size of worklist: 4
+0 1 14 86 
+w is 1, exporled = 1
+WARN: exceed diameter=3 
+w is 14, exporled = 1
+w is 15, exporled = 1
+w is 27, exporled = 1
+w is 80, exporled = 0
+Explore insert 80
+add 80
+v's degree 50, size of worklist: 4
+0 1 14 80 
+w is 18, exporled = 1
+WARN: exceed diameter=3 
+w is 81, exporled = 0
+Explore insert 81
+add 81
+v's degree 6, size of worklist: 4
+0 1 14 81 
+w is 80, exporled = 1
+WARN: exceed diameter=3 
+w is 124, exporled = 0
+Explore insert 124
+add 124
+v's degree 49, size of worklist: 4
+0 1 14 124 
+w is 76, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 76
+add 76
+v's degree 27, size of worklist: 4
+0 1 14 76 
+w is 75, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 75
+add 75
+v's degree 20, size of worklist: 4
+0 1 14 75 
+w is 76, exporled = 1
+WARN: exceed diameter=3 
+w is 77, exporled = 0
+Explore insert 77
+add 77
+v's degree 17, size of worklist: 4
+0 1 14 77 
+w is 75, exporled = 1
+WARN: exceed diameter=3 
+w is 76, exporled = 1
+w is 113, exporled = 0
+Explore insert 113
+add 113
+v's degree 6, size of worklist: 4
+0 1 14 113 
+w is 77, exporled = 1
+WARN: exceed diameter=3 
+w is 114, exporled = 0
+Explore insert 114
+add 114
+v's degree 10, size of worklist: 4
+0 1 14 114 
+w is 77, exporled = 1
+WARN: exceed diameter=3 
+w is 113, exporled = 1
+w is 231, exporled = 0
+Explore insert 231
+add 231
+v's degree 17, size of worklist: 4
+0 1 14 231 
+w is 56, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 56
+add 56
+v's degree 25, size of worklist: 4
+0 1 14 56 
+w is 57, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 57
+add 57
+v's degree 16, size of worklist: 4
+0 1 14 57 
+w is 56, exporled = 1
+WARN: exceed diameter=3 
+w is 408, exporled = 0
+Explore insert 408
+add 408
+v's degree 26, size of worklist: 4
+0 1 14 408 
+w is 57, exporled = 1
+WARN: exceed diameter=3 
+w is 80, exporled = 1
+w is 370, exporled = 0
+Explore insert 370
+add 370
+v's degree 16, size of worklist: 4
+0 1 14 370 
+w is 192, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 192
+add 192
+v's degree 37, size of worklist: 4
+0 1 14 192 
+w is 193, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 193
+add 193
+v's degree 18, size of worklist: 4
+0 1 14 193 
+w is 192, exporled = 1
+WARN: exceed diameter=3 
+w is 194, exporled = 0
+Explore insert 194
+add 194
+v's degree 21, size of worklist: 4
+0 1 14 194 
+w is 192, exporled = 1
+WARN: exceed diameter=3 
+w is 193, exporled = 1
+w is 195, exporled = 0
+Explore insert 195
+add 195
+v's degree 14, size of worklist: 4
+0 1 14 195 
+w is 192, exporled = 1
+WARN: exceed diameter=3 
+w is 193, exporled = 1
+w is 194, exporled = 1
+w is 370, exporled = 1
+w is 371, exporled = 0
+Explore insert 371
+add 371
+v's degree 6, size of worklist: 4
+0 1 14 371 
+w is 192, exporled = 1
+WARN: exceed diameter=3 
+w is 193, exporled = 1
+w is 194, exporled = 1
+w is 195, exporled = 1
+w is 370, exporled = 1
+w is 1521, exporled = 0
+Explore insert 1521
+add 1521
+v's degree 24, size of worklist: 4
+0 1 14 1521 
+w is 192, exporled = 1
+WARN: exceed diameter=3 
+w is 193, exporled = 1
+w is 194, exporled = 1
+w is 195, exporled = 1
+w is 370, exporled = 1
+w is 371, exporled = 1
+w is 1295, exporled = 0
+Explore insert 1295
+add 1295
+v's degree 9, size of worklist: 4
+0 1 14 1295 
+w is 1294, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 1294
+add 1294
+v's degree 2, size of worklist: 4
+0 1 14 1294 
+w is 1295, exporled = 1
+WARN: exceed diameter=3 
+w is 1296, exporled = 0
+Explore insert 1296
+add 1296
+v's degree 10, size of worklist: 4
+0 1 14 1296 
+w is 1294, exporled = 1
+WARN: exceed diameter=3 
+w is 1295, exporled = 1
+w is 1520, exporled = 0
+Explore insert 1520
+add 1520
+v's degree 25, size of worklist: 4
+0 1 14 1520 
+w is 1101, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 1101
+add 1101
+v's degree 6, size of worklist: 4
+0 1 14 1101 
+w is 421, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 421
+add 421
+v's degree 12, size of worklist: 4
+0 1 14 421 
+w is 422, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 422
+add 422
+v's degree 18, size of worklist: 4
+0 1 14 422 
+w is 421, exporled = 1
+WARN: exceed diameter=3 
+w is 423, exporled = 0
+Explore insert 423
+add 423
+v's degree 17, size of worklist: 4
+0 1 14 423 
+w is 421, exporled = 1
+WARN: exceed diameter=3 
+w is 422, exporled = 1
+w is 597, exporled = 0
+Explore insert 597
+add 597
+v's degree 16, size of worklist: 4
+0 1 14 597 
+w is 423, exporled = 1
+WARN: exceed diameter=3 
+w is 595, exporled = 0
+Explore insert 595
+add 595
+v's degree 18, size of worklist: 4
+0 1 14 595 
+w is 260, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 260
+add 260
+v's degree 20, size of worklist: 4
+0 1 14 260 
+w is 258, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 258
+add 258
+v's degree 21, size of worklist: 4
+0 1 14 258 
+w is 231, exporled = 1
+WARN: exceed diameter=3 
+w is 259, exporled = 0
+Explore insert 259
+add 259
+v's degree 14, size of worklist: 4
+0 1 14 259 
+w is 14, exporled = 1
+WARN: exceed diameter=3 
+w is 129, exporled = 0
+Explore insert 129
+add 129
+v's degree 28, size of worklist: 4
+0 1 14 129 
+w is 14, exporled = 1
+WARN: exceed diameter=3 
+w is 27, exporled = 1
+w is 100, exporled = 0
+Explore insert 100
+add 100
+v's degree 64, size of worklist: 4
+0 1 14 100 
+w is 3, exporled = 1
+WARN: exceed diameter=3 
+w is 4, exporled = 1
+w is 10, exporled = 0
+Explore insert 10
+add 10
+v's degree 25, size of worklist: 4
+0 1 14 10 
+w is 3, exporled = 1
+WARN: exceed diameter=3 
+w is 9, exporled = 0
+Explore insert 9
+add 9
+v's degree 30, size of worklist: 4
+0 1 14 9 
+w is 8, exporled = 0
+WARN: exceed diameter=3 
+WARN: Target find :0 1 
+Explore insert 8
+add 8
+v's degree 29, size of worklist: 3
+0 1 8 
+w is 9, exporled = 1
+w is 78, exporled = 0
+Explore insert 78
+add 78
+v's degree 15, size of worklist: 4
+0 1 8 78 
+w is 8, exporled = 1
+WARN: exceed diameter=3 
+WARN: Target find :0 1 
+w is 79, exporled = 0
+Explore insert 79
+add 79
+v's degree 24, size of worklist: 3
+0 1 79 
+w is 78, exporled = 1
+w is 108, exporled = 0
+Explore insert 108
+add 108
+v's degree 15, size of worklist: 4
+0 1 79 108 
+w is 79, exporled = 1
+WARN: exceed diameter=3 
+w is 107, exporled = 0
+Explore insert 107
+add 107
+v's degree 12, size of worklist: 4
+0 1 79 107 
+w is 108, exporled = 1
+WARN: exceed diameter=3 
+w is 109, exporled = 0
+Explore insert 109
+add 109
+v's degree 5, size of worklist: 4
+0 1 79 109 
+w is 107, exporled = 1
+WARN: exceed diameter=3 
+w is 108, exporled = 1
+w is 124, exporled = 1
+w is 11496, exporled = 0
+Explore insert 11496
+add 11496
+v's degree 4, size of worklist: 4
+0 1 79 11496 
+w is 109, exporled = 1
+WARN: exceed diameter=3 
+w is 124, exporled = 1
+w is 6687, exporled = 0
+Explore insert 6687
+add 6687
+v's degree 9, size of worklist: 4
+0 1 79 6687 
+w is 124, exporled = 1
+WARN: exceed diameter=3 
+w is 1060, exporled = 0
+Explore insert 1060
+add 1060
+v's degree 30, size of worklist: 4
+0 1 79 1060 
+w is 287, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 287
+add 287
+v's degree 54, size of worklist: 4
+0 1 79 287 
+w is 10, exporled = 1
+WARN: exceed diameter=3 
+w is 26, exporled = 1
+w is 27, exporled = 1
+w is 100, exporled = 1
+w is 261, exporled = 0
+Explore insert 261
+add 261
+v's degree 25, size of worklist: 4
+0 1 79 261 
+w is 131, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 131
+add 131
+v's degree 46, size of worklist: 4
+0 1 79 131 
+w is 46, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 46
+add 46
+v's degree 12, size of worklist: 4
+0 1 79 46 
+w is 45, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 45
+add 45
+v's degree 3, size of worklist: 4
+0 1 79 45 
+w is 46, exporled = 1
+WARN: exceed diameter=3 
+w is 159, exporled = 0
+Explore insert 159
+add 159
+v's degree 39, size of worklist: 4
+0 1 79 159 
+w is 10, exporled = 1
+WARN: exceed diameter=3 
+w is 45, exporled = 1
+w is 49, exporled = 0
+Explore insert 49
+add 49
+v's degree 5, size of worklist: 4
+0 1 79 49 
+w is 50, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 50
+add 50
+v's degree 5, size of worklist: 4
+0 1 79 50 
+w is 46, exporled = 1
+WARN: exceed diameter=3 
+w is 49, exporled = 1
+w is 131, exporled = 1
+w is 200, exporled = 0
+Explore insert 200
+add 200
+v's degree 39, size of worklist: 4
+0 1 79 200 
+w is 46, exporled = 1
+WARN: exceed diameter=3 
+w is 50, exporled = 1
+w is 131, exporled = 1
+w is 133, exporled = 0
+Explore insert 133
+add 133
+v's degree 29, size of worklist: 4
+0 1 79 133 
+w is 42, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 42
+add 42
+v's degree 16, size of worklist: 4
+0 1 79 42 
+w is 41, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 41
+add 41
+v's degree 29, size of worklist: 4
+0 1 79 41 
+w is 42, exporled = 1
+WARN: exceed diameter=3 
+w is 72, exporled = 0
+Explore insert 72
+add 72
+v's degree 20, size of worklist: 4
+0 1 79 72 
+w is 41, exporled = 1
+WARN: exceed diameter=3 
+w is 71, exporled = 0
+Explore insert 71
+add 71
+v's degree 10, size of worklist: 4
+0 1 79 71 
+w is 72, exporled = 1
+WARN: exceed diameter=3 
+w is 1570, exporled = 0
+Explore insert 1570
+add 1570
+v's degree 14, size of worklist: 4
+0 1 79 1570 
+w is 71, exporled = 1
+WARN: exceed diameter=3 
+w is 1571, exporled = 0
+Explore insert 1571
+add 1571
+v's degree 1, size of worklist: 4
+0 1 79 1571 
+w is 1570, exporled = 1
+WARN: exceed diameter=3 
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 0
+Explore insert 85
+add 85
+v's degree 20, size of worklist: 3
+0 1 85 
+w is 1, exporled = 1
+w is 28, exporled = 0
+Explore insert 28
+add 28
+v's degree 25, size of worklist: 4
+0 1 85 28 
+w is 29, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 29
+add 29
+v's degree 7, size of worklist: 4
+0 1 85 29 
+w is 28, exporled = 1
+WARN: exceed diameter=3 
+w is 30, exporled = 0
+Explore insert 30
+add 30
+v's degree 11, size of worklist: 4
+0 1 85 30 
+w is 28, exporled = 1
+WARN: exceed diameter=3 
+w is 29, exporled = 1
+w is 157, exporled = 0
+Explore insert 157
+add 157
+v's degree 30, size of worklist: 4
+0 1 85 157 
+w is 30, exporled = 1
+WARN: exceed diameter=3 
+w is 99, exporled = 0
+Explore insert 99
+add 99
+v's degree 46, size of worklist: 4
+0 1 85 99 
+w is 1, exporled = 1
+WARN: exceed diameter=3 
+w is 9, exporled = 1
+w is 80, exporled = 1
+w is 100, exporled = 1
+w is 157, exporled = 1
+w is 163, exporled = 0
+Explore insert 163
+add 163
+v's degree 19, size of worklist: 4
+0 1 85 163 
+w is 26, exporled = 1
+WARN: exceed diameter=3 
+w is 27, exporled = 1
+w is 80, exporled = 1
+w is 99, exporled = 1
+w is 164, exporled = 0
+Explore insert 164
+add 164
+v's degree 10, size of worklist: 4
+0 1 85 164 
+w is 15, exporled = 1
+WARN: exceed diameter=3 
+w is 26, exporled = 1
+w is 163, exporled = 1
+w is 202, exporled = 0
+Explore insert 202
+add 202
+v's degree 1, size of worklist: 4
+0 1 85 202 
+w is 164, exporled = 1
+WARN: exceed diameter=3 
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 0
+Explore insert 177
+add 177
+v's degree 10, size of worklist: 3
+0 1 177 
+w is 1, exporled = 1
+w is 176, exporled = 0
+Explore insert 176
+add 176
+v's degree 12, size of worklist: 4
+0 1 177 176 
+w is 128, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 128
+add 128
+v's degree 39, size of worklist: 4
+0 1 177 128 
+w is 28, exporled = 1
+WARN: exceed diameter=3 
+w is 127, exporled = 0
+Explore insert 127
+add 127
+v's degree 7, size of worklist: 4
+0 1 177 127 
+w is 128, exporled = 1
+WARN: exceed diameter=3 
+w is 460, exporled = 0
+Explore insert 460
+add 460
+v's degree 18, size of worklist: 4
+0 1 177 460 
+w is 29, exporled = 1
+WARN: exceed diameter=3 
+w is 127, exporled = 1
+w is 239, exporled = 0
+Explore insert 239
+add 239
+v's degree 53, size of worklist: 4
+0 1 177 239 
+w is 4, exporled = 1
+WARN: exceed diameter=3 
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 240, exporled = 0
+Explore insert 240
+add 240
+v's degree 21, size of worklist: 4
+0 1 177 240 
+w is 128, exporled = 1
+WARN: exceed diameter=3 
+w is 239, exporled = 1
+w is 246, exporled = 0
+Explore insert 246
+add 246
+v's degree 37, size of worklist: 4
+0 1 177 246 
+w is 30, exporled = 1
+WARN: exceed diameter=3 
+w is 100, exporled = 1
+w is 105, exporled = 0
+Explore insert 105
+add 105
+v's degree 35, size of worklist: 4
+0 1 177 105 
+w is 106, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 106
+add 106
+v's degree 1, size of worklist: 4
+0 1 177 106 
+w is 105, exporled = 1
+WARN: exceed diameter=3 
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 0
+Explore insert 184
+add 184
+v's degree 5, size of worklist: 3
+0 1 184 
+w is 0, exporled = 1
+w is 1, exporled = 1
+w is 32, exporled = 0
+Explore insert 32
+add 32
+v's degree 13, size of worklist: 4
+0 1 184 32 
+w is 31, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 31
+add 31
+v's degree 14, size of worklist: 4
+0 1 184 31 
+w is 32, exporled = 1
+WARN: exceed diameter=3 
+w is 33, exporled = 0
+Explore insert 33
+add 33
+v's degree 10, size of worklist: 4
+0 1 184 33 
+w is 12, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 12
+add 12
+v's degree 28, size of worklist: 4
+0 1 184 12 
+w is 3, exporled = 1
+WARN: exceed diameter=3 
+w is 10, exporled = 1
+w is 11, exporled = 0
+Explore insert 11
+add 11
+v's degree 2, size of worklist: 4
+0 1 184 11 
+w is 10, exporled = 1
+WARN: exceed diameter=3 
+w is 12, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 0
+Explore insert 234
+add 234
+v's degree 20, size of worklist: 3
+0 1 234 
+w is 1, exporled = 1
+w is 12, exporled = 1
+w is 14, exporled = 1
+w is 15, exporled = 1
+w is 26, exporled = 1
+w is 48, exporled = 0
+Explore insert 48
+add 48
+v's degree 27, size of worklist: 4
+0 1 234 48 
+w is 15, exporled = 1
+WARN: exceed diameter=3 
+w is 26, exporled = 1
+w is 47, exporled = 0
+Explore insert 47
+add 47
+v's degree 14, size of worklist: 4
+0 1 234 47 
+w is 9, exporled = 1
+WARN: exceed diameter=3 
+w is 48, exporled = 1
+w is 92, exporled = 0
+Explore insert 92
+add 92
+v's degree 19, size of worklist: 4
+0 1 234 92 
+w is 47, exporled = 1
+WARN: exceed diameter=3 
+w is 119, exporled = 0
+Explore insert 119
+add 119
+v's degree 4, size of worklist: 4
+0 1 234 119 
+w is 47, exporled = 1
+WARN: exceed diameter=3 
+w is 92, exporled = 1
+w is 120, exporled = 0
+Explore insert 120
+add 120
+v's degree 14, size of worklist: 4
+0 1 234 120 
+w is 92, exporled = 1
+WARN: exceed diameter=3 
+w is 119, exporled = 1
+w is 305, exporled = 0
+Explore insert 305
+add 305
+v's degree 16, size of worklist: 4
+0 1 234 305 
+w is 64, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 64
+add 64
+v's degree 8, size of worklist: 4
+0 1 234 64 
+w is 65, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 65
+add 65
+v's degree 4, size of worklist: 4
+0 1 234 65 
+w is 64, exporled = 1
+WARN: exceed diameter=3 
+w is 117, exporled = 0
+Explore insert 117
+add 117
+v's degree 17, size of worklist: 4
+0 1 234 117 
+w is 65, exporled = 1
+WARN: exceed diameter=3 
+w is 79, exporled = 1
+w is 118, exporled = 0
+Explore insert 118
+add 118
+v's degree 20, size of worklist: 4
+0 1 234 118 
+w is 79, exporled = 1
+WARN: exceed diameter=3 
+w is 117, exporled = 1
+w is 196, exporled = 0
+Explore insert 196
+add 196
+v's degree 52, size of worklist: 4
+0 1 234 196 
+w is 4, exporled = 1
+WARN: exceed diameter=3 
+w is 56, exporled = 1
+w is 94, exporled = 0
+Explore insert 94
+add 94
+v's degree 11, size of worklist: 4
+0 1 234 94 
+w is 60, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 60
+add 60
+v's degree 32, size of worklist: 4
+0 1 234 60 
+w is 58, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 58
+add 58
+v's degree 5, size of worklist: 4
+0 1 234 58 
+w is 59, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 59
+add 59
+v's degree 3, size of worklist: 4
+0 1 234 59 
+w is 58, exporled = 1
+WARN: exceed diameter=3 
+w is 60, exporled = 1
+w is 61, exporled = 0
+Explore insert 61
+add 61
+v's degree 14, size of worklist: 4
+0 1 234 61 
+w is 58, exporled = 1
+WARN: exceed diameter=3 
+w is 59, exporled = 1
+w is 60, exporled = 1
+w is 116, exporled = 0
+Explore insert 116
+add 116
+v's degree 16, size of worklist: 4
+0 1 234 116 
+w is 54, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 54
+add 54
+v's degree 12, size of worklist: 4
+0 1 234 54 
+w is 51, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 51
+add 51
+v's degree 19, size of worklist: 4
+0 1 234 51 
+w is 52, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 52
+add 52
+v's degree 12, size of worklist: 4
+0 1 234 52 
+w is 51, exporled = 1
+WARN: exceed diameter=3 
+w is 53, exporled = 0
+Explore insert 53
+add 53
+v's degree 6, size of worklist: 4
+0 1 234 53 
+w is 51, exporled = 1
+WARN: exceed diameter=3 
+w is 52, exporled = 1
+w is 54, exporled = 1
+w is 55, exporled = 0
+Explore insert 55
+add 55
+v's degree 6, size of worklist: 4
+0 1 234 55 
+w is 51, exporled = 1
+WARN: exceed diameter=3 
+w is 52, exporled = 1
+w is 53, exporled = 1
+w is 54, exporled = 1
+w is 116, exporled = 1
+w is 791, exporled = 0
+Explore insert 791
+add 791
+v's degree 15, size of worklist: 4
+0 1 234 791 
+w is 53, exporled = 1
+WARN: exceed diameter=3 
+w is 54, exporled = 1
+w is 55, exporled = 1
+w is 116, exporled = 1
+w is 218, exporled = 0
+Explore insert 218
+add 218
+v's degree 12, size of worklist: 4
+0 1 234 218 
+w is 51, exporled = 1
+WARN: exceed diameter=3 
+w is 116, exporled = 1
+w is 217, exporled = 0
+Explore insert 217
+add 217
+v's degree 2, size of worklist: 4
+0 1 234 217 
+w is 51, exporled = 1
+WARN: exceed diameter=3 
+w is 218, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 0
+Explore insert 238
+add 238
+v's degree 24, size of worklist: 3
+0 1 238 
+w is 1, exporled = 1
+w is 26, exporled = 1
+w is 27, exporled = 1
+w is 135, exporled = 0
+Explore insert 135
+add 135
+v's degree 22, size of worklist: 4
+0 1 238 135 
+w is 15, exporled = 1
+WARN: exceed diameter=3 
+w is 136, exporled = 0
+Explore insert 136
+add 136
+v's degree 16, size of worklist: 4
+0 1 238 136 
+w is 15, exporled = 1
+WARN: exceed diameter=3 
+w is 135, exporled = 1
+w is 157, exporled = 1
+w is 158, exporled = 0
+Explore insert 158
+add 158
+v's degree 11, size of worklist: 4
+0 1 238 158 
+w is 31, exporled = 1
+WARN: exceed diameter=3 
+w is 135, exporled = 1
+w is 136, exporled = 1
+w is 156, exporled = 0
+Explore insert 156
+add 156
+v's degree 34, size of worklist: 4
+0 1 238 156 
+w is 36, exporled = 1
+WARN: exceed diameter=3 
+w is 157, exporled = 1
+w is 158, exporled = 1
+w is 159, exporled = 1
+w is 170, exporled = 0
+Explore insert 170
+add 170
+v's degree 9, size of worklist: 4
+0 1 238 170 
+w is 156, exporled = 1
+WARN: exceed diameter=3 
+w is 169, exporled = 0
+Explore insert 169
+add 169
+v's degree 8, size of worklist: 4
+0 1 238 169 
+w is 170, exporled = 1
+WARN: exceed diameter=3 
+w is 246, exporled = 1
+w is 507, exporled = 0
+Explore insert 507
+add 507
+v's degree 23, size of worklist: 4
+0 1 238 507 
+w is 114, exporled = 1
+WARN: exceed diameter=3 
+w is 169, exporled = 1
+w is 170, exporled = 1
+w is 506, exporled = 0
+Explore insert 506
+add 506
+v's degree 5, size of worklist: 4
+0 1 238 506 
+w is 507, exporled = 1
+WARN: exceed diameter=3 
+w is 1028, exporled = 0
+Explore insert 1028
+add 1028
+v's degree 2, size of worklist: 4
+0 1 238 1028 
+w is 506, exporled = 1
+WARN: exceed diameter=3 
+w is 1029, exporled = 0
+Explore insert 1029
+add 1029
+v's degree 6, size of worklist: 4
+0 1 238 1029 
+w is 506, exporled = 1
+WARN: exceed diameter=3 
+w is 1028, exporled = 1
+w is 1401, exporled = 0
+Explore insert 1401
+add 1401
+v's degree 5, size of worklist: 4
+0 1 238 1401 
+w is 936, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 936
+add 936
+v's degree 7, size of worklist: 4
+0 1 238 936 
+w is 207, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 207
+add 207
+v's degree 14, size of worklist: 4
+0 1 238 207 
+w is 107, exporled = 1
+WARN: exceed diameter=3 
+w is 208, exporled = 0
+Explore insert 208
+add 208
+v's degree 4, size of worklist: 4
+0 1 238 208 
+w is 207, exporled = 1
+WARN: exceed diameter=3 
+w is 209, exporled = 0
+Explore insert 209
+add 209
+v's degree 19, size of worklist: 4
+0 1 238 209 
+w is 74, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 74
+add 74
+v's degree 21, size of worklist: 4
+0 1 238 74 
+w is 73, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 73
+add 73
+v's degree 7, size of worklist: 4
+0 1 238 73 
+w is 74, exporled = 1
+WARN: exceed diameter=3 
+w is 281, exporled = 0
+Explore insert 281
+add 281
+v's degree 5, size of worklist: 4
+0 1 238 281 
+w is 73, exporled = 1
+WARN: exceed diameter=3 
+w is 282, exporled = 0
+Explore insert 282
+add 282
+v's degree 4, size of worklist: 4
+0 1 238 282 
+w is 281, exporled = 1
+WARN: exceed diameter=3 
+w is 557, exporled = 0
+Explore insert 557
+add 557
+v's degree 13, size of worklist: 4
+0 1 238 557 
+w is 281, exporled = 1
+WARN: exceed diameter=3 
+w is 282, exporled = 1
+w is 558, exporled = 0
+Explore insert 558
+add 558
+v's degree 9, size of worklist: 4
+0 1 238 558 
+w is 150, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 150
+add 150
+v's degree 20, size of worklist: 4
+0 1 238 150 
+w is 149, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 149
+add 149
+v's degree 11, size of worklist: 4
+0 1 238 149 
+w is 150, exporled = 1
+WARN: exceed diameter=3 
+w is 151, exporled = 0
+Explore insert 151
+add 151
+v's degree 20, size of worklist: 4
+0 1 238 151 
+w is 61, exporled = 1
+WARN: exceed diameter=3 
+w is 96, exporled = 0
+Explore insert 96
+add 96
+v's degree 5, size of worklist: 4
+0 1 238 96 
+w is 97, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 97
+add 97
+v's degree 6, size of worklist: 4
+0 1 238 97 
+w is 96, exporled = 1
+WARN: exceed diameter=3 
+w is 98, exporled = 0
+Explore insert 98
+add 98
+v's degree 12, size of worklist: 4
+0 1 238 98 
+w is 96, exporled = 1
+WARN: exceed diameter=3 
+w is 97, exporled = 1
+w is 234, exporled = 1
+w is 629, exporled = 0
+Explore insert 629
+add 629
+v's degree 27, size of worklist: 4
+0 1 238 629 
+w is 4, exporled = 1
+WARN: exceed diameter=3 
+w is 14, exporled = 1
+w is 79, exporled = 1
+w is 98, exporled = 1
+w is 118, exporled = 1
+w is 153, exporled = 0
+Explore insert 153
+add 153
+v's degree 19, size of worklist: 4
+0 1 238 153 
+w is 9, exporled = 1
+WARN: exceed diameter=3 
+w is 48, exporled = 1
+w is 88, exporled = 0
+Explore insert 88
+add 88
+v's degree 43, size of worklist: 4
+0 1 238 88 
+w is 14, exporled = 1
+WARN: exceed diameter=3 
+w is 15, exporled = 1
+w is 27, exporled = 1
+w is 43, exporled = 0
+Explore insert 43
+add 43
+v's degree 19, size of worklist: 4
+0 1 238 43 
+w is 14, exporled = 1
+WARN: exceed diameter=3 
+w is 44, exporled = 0
+Explore insert 44
+add 44
+v's degree 15, size of worklist: 4
+0 1 238 44 
+w is 43, exporled = 1
+WARN: exceed diameter=3 
+w is 172, exporled = 0
+Explore insert 172
+add 172
+v's degree 2, size of worklist: 4
+0 1 238 172 
+w is 43, exporled = 1
+WARN: exceed diameter=3 
+w is 44, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 0
+Explore insert 274
+add 274
+v's degree 40, size of worklist: 3
+0 1 274 
+w is 1, exporled = 1
+w is 19, exporled = 1
+w is 27, exporled = 1
+w is 100, exporled = 1
+w is 105, exporled = 1
+w is 246, exporled = 1
+w is 254, exporled = 0
+Explore insert 254
+add 254
+v's degree 11, size of worklist: 4
+0 1 274 254 
+w is 43, exporled = 1
+WARN: exceed diameter=3 
+w is 44, exporled = 1
+w is 274, exporled = 1
+w is 277, exporled = 0
+Explore insert 277
+add 277
+v's degree 12, size of worklist: 4
+0 1 274 277 
+w is 43, exporled = 1
+WARN: exceed diameter=3 
+w is 230, exporled = 0
+Explore insert 230
+add 230
+v's degree 37, size of worklist: 4
+0 1 274 230 
+w is 124, exporled = 1
+WARN: exceed diameter=3 
+w is 156, exporled = 1
+w is 231, exporled = 1
+w is 232, exporled = 0
+Explore insert 232
+add 232
+v's degree 11, size of worklist: 4
+0 1 274 232 
+w is 230, exporled = 1
+WARN: exceed diameter=3 
+w is 231, exporled = 1
+w is 989, exporled = 0
+Explore insert 989
+add 989
+v's degree 28, size of worklist: 4
+0 1 274 989 
+w is 232, exporled = 1
+WARN: exceed diameter=3 
+w is 693, exporled = 0
+Explore insert 693
+add 693
+v's degree 6, size of worklist: 4
+0 1 274 693 
+w is 691, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 691
+add 691
+v's degree 2, size of worklist: 4
+0 1 274 691 
+w is 692, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 692
+add 692
+v's degree 4, size of worklist: 4
+0 1 274 692 
+w is 115, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 115
+add 115
+v's degree 10, size of worklist: 4
+0 1 274 115 
+w is 116, exporled = 1
+WARN: exceed diameter=3 
+w is 241, exporled = 0
+Explore insert 241
+add 241
+v's degree 13, size of worklist: 4
+0 1 274 241 
+w is 115, exporled = 1
+WARN: exceed diameter=3 
+w is 116, exporled = 1
+w is 242, exporled = 0
+Explore insert 242
+add 242
+v's degree 18, size of worklist: 4
+0 1 274 242 
+w is 92, exporled = 1
+WARN: exceed diameter=3 
+w is 116, exporled = 1
+w is 241, exporled = 1
+w is 387, exporled = 0
+Explore insert 387
+add 387
+v's degree 6, size of worklist: 4
+0 1 274 387 
+w is 242, exporled = 1
+WARN: exceed diameter=3 
+w is 386, exporled = 0
+Explore insert 386
+add 386
+v's degree 9, size of worklist: 4
+0 1 274 386 
+w is 387, exporled = 1
+WARN: exceed diameter=3 
+w is 388, exporled = 0
+Explore insert 388
+add 388
+v's degree 8, size of worklist: 4
+0 1 274 388 
+w is 110, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 110
+add 110
+v's degree 25, size of worklist: 4
+0 1 274 110 
+w is 111, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 111
+add 111
+v's degree 32, size of worklist: 4
+0 1 274 111 
+w is 110, exporled = 1
+WARN: exceed diameter=3 
+w is 112, exporled = 0
+Explore insert 112
+add 112
+v's degree 13, size of worklist: 4
+0 1 274 112 
+w is 110, exporled = 1
+WARN: exceed diameter=3 
+w is 111, exporled = 1
+w is 315, exporled = 0
+Explore insert 315
+add 315
+v's degree 18, size of worklist: 4
+0 1 274 315 
+w is 12, exporled = 1
+WARN: exceed diameter=3 
+w is 112, exporled = 1
+w is 313, exporled = 0
+Explore insert 313
+add 313
+v's degree 5, size of worklist: 4
+0 1 274 313 
+w is 314, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 314
+add 314
+v's degree 5, size of worklist: 4
+0 1 274 314 
+w is 41, exporled = 1
+WARN: exceed diameter=3 
+w is 42, exporled = 1
+w is 313, exporled = 1
+w is 315, exporled = 1
+w is 373, exporled = 0
+Explore insert 373
+add 373
+v's degree 5, size of worklist: 4
+0 1 274 373 
+w is 41, exporled = 1
+WARN: exceed diameter=3 
+w is 42, exporled = 1
+w is 314, exporled = 1
+w is 1628, exporled = 0
+Explore insert 1628
+add 1628
+v's degree 2, size of worklist: 4
+0 1 274 1628 
+w is 41, exporled = 1
+WARN: exceed diameter=3 
+w is 373, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 0
+Explore insert 294
+add 294
+v's degree 7, size of worklist: 3
+0 1 294 
+w is 1, exporled = 1
+w is 238, exporled = 1
+w is 295, exporled = 0
+Explore insert 295
+add 295
+v's degree 16, size of worklist: 4
+0 1 294 295 
+w is 15, exporled = 1
+WARN: exceed diameter=3 
+w is 26, exporled = 1
+w is 241, exporled = 1
+w is 294, exporled = 1
+w is 296, exporled = 0
+Explore insert 296
+add 296
+v's degree 14, size of worklist: 4
+0 1 294 296 
+w is 294, exporled = 1
+WARN: exceed diameter=3 
+w is 295, exporled = 1
+w is 474, exporled = 0
+Explore insert 474
+add 474
+v's degree 61, size of worklist: 4
+0 1 294 474 
+w is 1, exporled = 1
+WARN: exceed diameter=3 
+w is 131, exporled = 1
+w is 134, exporled = 0
+Explore insert 134
+add 134
+v's degree 30, size of worklist: 4
+0 1 294 134 
+w is 46, exporled = 1
+WARN: exceed diameter=3 
+w is 131, exporled = 1
+w is 132, exporled = 0
+Explore insert 132
+add 132
+v's degree 3, size of worklist: 4
+0 1 294 132 
+w is 131, exporled = 1
+WARN: exceed diameter=3 
+w is 133, exporled = 1
+w is 134, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 0
+Explore insert 382
+add 382
+v's degree 40, size of worklist: 3
+0 1 382 
+w is 1, exporled = 1
+w is 32, exporled = 1
+w is 80, exporled = 1
+w is 86, exporled = 1
+w is 88, exporled = 1
+w is 332, exporled = 0
+Explore insert 332
+add 332
+v's degree 24, size of worklist: 4
+0 1 382 332 
+w is 4, exporled = 1
+WARN: exceed diameter=3 
+w is 14, exporled = 1
+w is 15, exporled = 1
+w is 26, exporled = 1
+w is 27, exporled = 1
+w is 86, exporled = 1
+w is 88, exporled = 1
+w is 238, exporled = 1
+w is 239, exporled = 1
+w is 259, exporled = 1
+w is 382, exporled = 1
+w is 635, exporled = 0
+Explore insert 635
+add 635
+v's degree 37, size of worklist: 4
+0 1 382 635 
+w is 1, exporled = 1
+WARN: exceed diameter=3 
+w is 14, exporled = 1
+w is 19, exporled = 1
+w is 26, exporled = 1
+w is 27, exporled = 1
+w is 57, exporled = 1
+w is 88, exporled = 1
+w is 99, exporled = 1
+w is 238, exporled = 1
+w is 332, exporled = 1
+w is 363, exporled = 0
+Explore insert 363
+add 363
+v's degree 47, size of worklist: 4
+0 1 382 363 
+w is 14, exporled = 1
+WARN: exceed diameter=3 
+w is 15, exporled = 1
+w is 27, exporled = 1
+w is 28, exporled = 1
+w is 43, exporled = 1
+w is 80, exporled = 1
+w is 88, exporled = 1
+w is 95, exporled = 0
+Explore insert 95
+add 95
+v's degree 9, size of worklist: 4
+0 1 382 95 
+w is 60, exporled = 1
+WARN: exceed diameter=3 
+w is 93, exporled = 0
+Explore insert 93
+add 93
+v's degree 5, size of worklist: 4
+0 1 382 93 
+w is 58, exporled = 1
+WARN: exceed diameter=3 
+w is 60, exporled = 1
+w is 94, exporled = 1
+w is 95, exporled = 1
+w is 148, exporled = 0
+Explore insert 148
+add 148
+v's degree 3, size of worklist: 4
+0 1 382 148 
+w is 58, exporled = 1
+WARN: exceed diameter=3 
+w is 60, exporled = 1
+w is 93, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 0
+Explore insert 444
+add 444
+v's degree 15, size of worklist: 3
+0 1 444 
+w is 1, exporled = 1
+w is 19, exporled = 1
+w is 196, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 442, exporled = 0
+Explore insert 442
+add 442
+v's degree 19, size of worklist: 4
+0 1 444 442 
+w is 37, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 37
+add 37
+v's degree 31, size of worklist: 4
+0 1 444 37 
+w is 38, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 38
+add 38
+v's degree 14, size of worklist: 4
+0 1 444 38 
+w is 37, exporled = 1
+WARN: exceed diameter=3 
+w is 39, exporled = 0
+Explore insert 39
+add 39
+v's degree 14, size of worklist: 4
+0 1 444 39 
+w is 37, exporled = 1
+WARN: exceed diameter=3 
+w is 38, exporled = 1
+w is 40, exporled = 0
+Explore insert 40
+add 40
+v's degree 10, size of worklist: 4
+0 1 444 40 
+w is 37, exporled = 1
+WARN: exceed diameter=3 
+w is 38, exporled = 1
+w is 39, exporled = 1
+w is 2208, exporled = 0
+Explore insert 2208
+add 2208
+v's degree 4, size of worklist: 4
+0 1 444 2208 
+w is 40, exporled = 1
+WARN: exceed diameter=3 
+w is 2209, exporled = 0
+Explore insert 2209
+add 2209
+v's degree 11, size of worklist: 4
+0 1 444 2209 
+w is 40, exporled = 1
+WARN: exceed diameter=3 
+w is 71, exporled = 1
+w is 1570, exporled = 1
+w is 2208, exporled = 1
+w is 2210, exporled = 0
+Explore insert 2210
+add 2210
+v's degree 8, size of worklist: 4
+0 1 444 2210 
+w is 40, exporled = 1
+WARN: exceed diameter=3 
+w is 639, exporled = 0
+Explore insert 639
+add 639
+v's degree 51, size of worklist: 4
+0 1 444 639 
+w is 221, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 221
+add 221
+v's degree 47, size of worklist: 4
+0 1 444 221 
+w is 31, exporled = 1
+WARN: exceed diameter=3 
+w is 32, exporled = 1
+w is 157, exporled = 1
+w is 158, exporled = 1
+w is 159, exporled = 1
+w is 196, exporled = 1
+w is 245, exporled = 0
+Explore insert 245
+add 245
+v's degree 16, size of worklist: 4
+0 1 444 245 
+w is 115, exporled = 1
+WARN: exceed diameter=3 
+w is 170, exporled = 1
+w is 221, exporled = 1
+w is 246, exporled = 1
+w is 247, exporled = 0
+Explore insert 247
+add 247
+v's degree 32, size of worklist: 4
+0 1 444 247 
+w is 100, exporled = 1
+WARN: exceed diameter=3 
+w is 157, exporled = 1
+w is 159, exporled = 1
+w is 190, exporled = 0
+Explore insert 190
+add 190
+v's degree 19, size of worklist: 4
+0 1 444 190 
+w is 191, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 191
+add 191
+v's degree 3, size of worklist: 4
+0 1 444 191 
+w is 190, exporled = 1
+WARN: exceed diameter=3 
+w is 265, exporled = 0
+Explore insert 265
+add 265
+v's degree 34, size of worklist: 4
+0 1 444 265 
+w is 108, exporled = 1
+WARN: exceed diameter=3 
+w is 157, exporled = 1
+w is 159, exporled = 1
+w is 191, exporled = 1
+w is 221, exporled = 1
+w is 226, exporled = 0
+Explore insert 226
+add 226
+v's degree 19, size of worklist: 4
+0 1 444 226 
+w is 111, exporled = 1
+WARN: exceed diameter=3 
+w is 145, exporled = 0
+Explore insert 145
+add 145
+v's degree 27, size of worklist: 4
+0 1 444 145 
+w is 111, exporled = 1
+WARN: exceed diameter=3 
+w is 124, exporled = 1
+w is 144, exporled = 0
+Explore insert 144
+add 144
+v's degree 8, size of worklist: 4
+0 1 444 144 
+w is 145, exporled = 1
+WARN: exceed diameter=3 
+w is 436, exporled = 0
+Explore insert 436
+add 436
+v's degree 10, size of worklist: 4
+0 1 444 436 
+w is 144, exporled = 1
+WARN: exceed diameter=3 
+w is 648, exporled = 0
+Explore insert 648
+add 648
+v's degree 9, size of worklist: 4
+0 1 444 648 
+w is 112, exporled = 1
+WARN: exceed diameter=3 
+w is 381, exporled = 0
+Explore insert 381
+add 381
+v's degree 14, size of worklist: 4
+0 1 444 381 
+w is 97, exporled = 1
+WARN: exceed diameter=3 
+w is 112, exporled = 1
+w is 315, exporled = 1
+w is 379, exporled = 0
+Explore insert 379
+add 379
+v's degree 3, size of worklist: 4
+0 1 444 379 
+w is 380, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 380
+add 380
+v's degree 5, size of worklist: 4
+0 1 444 380 
+w is 215, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 215
+add 215
+v's degree 7, size of worklist: 4
+0 1 444 215 
+w is 133, exporled = 1
+WARN: exceed diameter=3 
+w is 216, exporled = 0
+Explore insert 216
+add 216
+v's degree 4, size of worklist: 4
+0 1 444 216 
+w is 145, exporled = 1
+WARN: exceed diameter=3 
+w is 215, exporled = 1
+w is 227, exporled = 0
+Explore insert 227
+add 227
+v's degree 18, size of worklist: 4
+0 1 444 227 
+w is 145, exporled = 1
+WARN: exceed diameter=3 
+w is 186, exporled = 0
+Explore insert 186
+add 186
+v's degree 15, size of worklist: 4
+0 1 444 186 
+w is 145, exporled = 1
+WARN: exceed diameter=3 
+w is 185, exporled = 0
+Explore insert 185
+add 185
+v's degree 3, size of worklist: 4
+0 1 444 185 
+w is 186, exporled = 1
+WARN: exceed diameter=3 
+w is 4805, exporled = 0
+Explore insert 4805
+add 4805
+v's degree 2, size of worklist: 4
+0 1 444 4805 
+w is 185, exporled = 1
+WARN: exceed diameter=3 
+w is 7684, exporled = 0
+Explore insert 7684
+add 7684
+v's degree 2, size of worklist: 4
+0 1 444 7684 
+w is 185, exporled = 1
+WARN: exceed diameter=3 
+w is 4805, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 0
+Explore insert 482
+add 482
+v's degree 47, size of worklist: 3
+0 1 482 
+w is 1, exporled = 1
+w is 4, exporled = 1
+w is 8, exporled = 1
+WARN: Target find :0 1 
+w is 9, exporled = 1
+w is 15, exporled = 1
+w is 27, exporled = 1
+w is 28, exporled = 1
+w is 80, exporled = 1
+w is 88, exporled = 1
+w is 100, exporled = 1
+w is 136, exporled = 1
+w is 163, exporled = 1
+w is 207, exporled = 1
+w is 210, exporled = 0
+Explore insert 210
+add 210
+v's degree 38, size of worklist: 3
+0 1 210 
+w is 62, exporled = 0
+Explore insert 62
+add 62
+v's degree 13, size of worklist: 4
+0 1 210 62 
+w is 63, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 63
+add 63
+v's degree 14, size of worklist: 4
+0 1 210 63 
+w is 62, exporled = 1
+WARN: exceed diameter=3 
+w is 350, exporled = 0
+Explore insert 350
+add 350
+v's degree 5, size of worklist: 4
+0 1 210 350 
+w is 63, exporled = 1
+WARN: exceed diameter=3 
+w is 351, exporled = 0
+Explore insert 351
+add 351
+v's degree 4, size of worklist: 4
+0 1 210 351 
+w is 63, exporled = 1
+WARN: exceed diameter=3 
+w is 350, exporled = 1
+w is 352, exporled = 0
+Explore insert 352
+add 352
+v's degree 2, size of worklist: 4
+0 1 210 352 
+w is 350, exporled = 1
+WARN: exceed diameter=3 
+w is 351, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 0
+Explore insert 525
+add 525
+v's degree 43, size of worklist: 3
+0 1 525 
+w is 1, exporled = 1
+w is 4, exporled = 1
+w is 12, exporled = 1
+w is 33, exporled = 1
+w is 64, exporled = 1
+w is 72, exporled = 1
+w is 90, exporled = 1
+w is 91, exporled = 0
+Explore insert 91
+add 91
+v's degree 6, size of worklist: 4
+0 1 525 91 
+w is 89, exporled = 1
+WARN: exceed diameter=3 
+w is 90, exporled = 1
+w is 525, exporled = 1
+w is 528, exporled = 0
+Explore insert 528
+add 528
+v's degree 8, size of worklist: 4
+0 1 525 528 
+w is 90, exporled = 1
+WARN: exceed diameter=3 
+w is 91, exporled = 1
+w is 343, exporled = 0
+Explore insert 343
+add 343
+v's degree 8, size of worklist: 4
+0 1 525 343 
+w is 100, exporled = 1
+WARN: exceed diameter=3 
+w is 246, exporled = 1
+w is 247, exporled = 1
+w is 342, exporled = 0
+Explore insert 342
+add 342
+v's degree 7, size of worklist: 4
+0 1 525 342 
+w is 120, exporled = 1
+WARN: exceed diameter=3 
+w is 305, exporled = 1
+w is 343, exporled = 1
+w is 425, exporled = 0
+Explore insert 425
+add 425
+v's degree 5, size of worklist: 4
+0 1 525 425 
+w is 64, exporled = 1
+WARN: exceed diameter=3 
+w is 305, exporled = 1
+w is 319, exporled = 0
+Explore insert 319
+add 319
+v's degree 7, size of worklist: 4
+0 1 525 319 
+w is 47, exporled = 1
+WARN: exceed diameter=3 
+w is 64, exporled = 1
+w is 305, exporled = 1
+w is 320, exporled = 0
+Explore insert 320
+add 320
+v's degree 6, size of worklist: 4
+0 1 525 320 
+w is 47, exporled = 1
+WARN: exceed diameter=3 
+w is 319, exporled = 1
+w is 389, exporled = 0
+Explore insert 389
+add 389
+v's degree 7, size of worklist: 4
+0 1 525 389 
+w is 242, exporled = 1
+WARN: exceed diameter=3 
+w is 320, exporled = 1
+w is 386, exporled = 1
+w is 387, exporled = 1
+w is 388, exporled = 1
+w is 1599, exporled = 0
+Explore insert 1599
+add 1599
+v's degree 20, size of worklist: 4
+0 1 525 1599 
+w is 156, exporled = 1
+WARN: exceed diameter=3 
+w is 218, exporled = 1
+w is 320, exporled = 1
+w is 389, exporled = 1
+w is 454, exporled = 0
+Explore insert 454
+add 454
+v's degree 8, size of worklist: 4
+0 1 525 454 
+w is 21, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 21
+add 21
+v's degree 17, size of worklist: 4
+0 1 525 21 
+w is 22, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 22
+add 22
+v's degree 7, size of worklist: 4
+0 1 525 22 
+w is 21, exporled = 1
+WARN: exceed diameter=3 
+w is 69, exporled = 0
+Explore insert 69
+add 69
+v's degree 6, size of worklist: 4
+0 1 525 69 
+w is 22, exporled = 1
+WARN: exceed diameter=3 
+w is 70, exporled = 0
+Explore insert 70
+add 70
+v's degree 5, size of worklist: 4
+0 1 525 70 
+w is 69, exporled = 1
+WARN: exceed diameter=3 
+w is 957, exporled = 0
+Explore insert 957
+add 957
+v's degree 7, size of worklist: 4
+0 1 525 957 
+w is 67, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 67
+add 67
+v's degree 17, size of worklist: 4
+0 1 525 67 
+w is 68, exporled = 1
+WARN: exceed diameter=3 
+w is 521, exporled = 0
+Explore insert 521
+add 521
+v's degree 17, size of worklist: 4
+0 1 525 521 
+w is 67, exporled = 1
+WARN: exceed diameter=3 
+w is 121, exporled = 0
+Explore insert 121
+add 121
+v's degree 14, size of worklist: 4
+0 1 525 121 
+w is 122, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 122
+add 122
+v's degree 25, size of worklist: 4
+0 1 525 122 
+w is 121, exporled = 1
+WARN: exceed diameter=3 
+w is 153, exporled = 1
+w is 283, exporled = 0
+Explore insert 283
+add 283
+v's degree 12, size of worklist: 4
+0 1 525 283 
+w is 121, exporled = 1
+WARN: exceed diameter=3 
+w is 122, exporled = 1
+w is 361, exporled = 0
+Explore insert 361
+add 361
+v's degree 19, size of worklist: 4
+0 1 525 361 
+w is 73, exporled = 1
+WARN: exceed diameter=3 
+w is 122, exporled = 1
+w is 131, exporled = 1
+w is 200, exporled = 1
+w is 236, exporled = 0
+Explore insert 236
+add 236
+v's degree 35, size of worklist: 4
+0 1 525 236 
+w is 133, exporled = 1
+WARN: exceed diameter=3 
+w is 237, exporled = 0
+Explore insert 237
+add 237
+v's degree 15, size of worklist: 4
+0 1 525 237 
+w is 133, exporled = 1
+WARN: exceed diameter=3 
+w is 156, exporled = 1
+w is 236, exporled = 1
+w is 582, exporled = 0
+Explore insert 582
+add 582
+v's degree 15, size of worklist: 4
+0 1 525 582 
+w is 237, exporled = 1
+WARN: exceed diameter=3 
+w is 579, exporled = 0
+Explore insert 579
+add 579
+v's degree 3, size of worklist: 4
+0 1 525 579 
+w is 580, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 580
+add 580
+v's degree 7, size of worklist: 4
+0 1 525 580 
+w is 579, exporled = 1
+WARN: exceed diameter=3 
+w is 581, exporled = 0
+Explore insert 581
+add 581
+v's degree 3, size of worklist: 4
+0 1 525 581 
+w is 579, exporled = 1
+WARN: exceed diameter=3 
+w is 580, exporled = 1
+w is 582, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 0
+Explore insert 592
+add 592
+v's degree 38, size of worklist: 3
+0 1 592 
+w is 1, exporled = 1
+w is 4, exporled = 1
+w is 8, exporled = 1
+WARN: Target find :0 1 
+w is 9, exporled = 1
+w is 47, exporled = 1
+w is 48, exporled = 1
+w is 83, exporled = 0
+Explore insert 83
+add 83
+v's degree 13, size of worklist: 3
+0 1 83 
+w is 9, exporled = 1
+w is 82, exporled = 0
+Explore insert 82
+add 82
+v's degree 7, size of worklist: 4
+0 1 83 82 
+w is 83, exporled = 1
+WARN: exceed diameter=3 
+w is 585, exporled = 0
+Explore insert 585
+add 585
+v's degree 10, size of worklist: 4
+0 1 83 585 
+w is 82, exporled = 1
+WARN: exceed diameter=3 
+w is 241, exporled = 1
+w is 1044, exporled = 0
+Explore insert 1044
+add 1044
+v's degree 24, size of worklist: 4
+0 1 83 1044 
+w is 10, exporled = 1
+WARN: exceed diameter=3 
+w is 67, exporled = 1
+w is 82, exporled = 1
+w is 83, exporled = 1
+w is 284, exporled = 0
+Explore insert 284
+add 284
+v's degree 12, size of worklist: 4
+0 1 83 284 
+w is 83, exporled = 1
+WARN: exceed diameter=3 
+w is 285, exporled = 0
+Explore insert 285
+add 285
+v's degree 10, size of worklist: 4
+0 1 83 285 
+w is 284, exporled = 1
+WARN: exceed diameter=3 
+w is 286, exporled = 0
+Explore insert 286
+add 286
+v's degree 8, size of worklist: 4
+0 1 83 286 
+w is 284, exporled = 1
+WARN: exceed diameter=3 
+w is 285, exporled = 1
+w is 1027, exporled = 0
+Explore insert 1027
+add 1027
+v's degree 17, size of worklist: 4
+0 1 83 1027 
+w is 168, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 168
+add 168
+v's degree 31, size of worklist: 4
+0 1 83 168 
+w is 4, exporled = 1
+WARN: exceed diameter=3 
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 88, exporled = 1
+w is 100, exporled = 1
+w is 129, exporled = 1
+w is 130, exporled = 0
+Explore insert 130
+add 130
+v's degree 14, size of worklist: 4
+0 1 83 130 
+w is 15, exporled = 1
+WARN: exceed diameter=3 
+w is 43, exporled = 1
+w is 88, exporled = 1
+w is 129, exporled = 1
+w is 167, exporled = 0
+Explore insert 167
+add 167
+v's degree 11, size of worklist: 4
+0 1 83 167 
+w is 14, exporled = 1
+WARN: exceed diameter=3 
+w is 129, exporled = 1
+w is 130, exporled = 1
+w is 168, exporled = 1
+w is 288, exporled = 0
+Explore insert 288
+add 288
+v's degree 27, size of worklist: 4
+0 1 83 288 
+w is 8, exporled = 1
+WARN: exceed diameter=3 
+WARN: Target find :0 1 
+w is 9, exporled = 1
+w is 10, exporled = 1
+w is 108, exporled = 1
+w is 167, exporled = 1
+w is 265, exporled = 1
+w is 287, exporled = 1
+w is 546, exporled = 0
+Explore insert 546
+add 546
+v's degree 20, size of worklist: 3
+0 1 546 
+w is 10, exporled = 1
+w is 266, exporled = 0
+Explore insert 266
+add 266
+v's degree 53, size of worklist: 4
+0 1 546 266 
+w is 133, exporled = 1
+WARN: exceed diameter=3 
+w is 190, exporled = 1
+w is 221, exporled = 1
+w is 239, exporled = 1
+w is 246, exporled = 1
+w is 247, exporled = 1
+w is 265, exporled = 1
+w is 267, exporled = 0
+Explore insert 267
+add 267
+v's degree 43, size of worklist: 4
+0 1 546 267 
+w is 45, exporled = 1
+WARN: exceed diameter=3 
+w is 128, exporled = 1
+w is 133, exporled = 1
+w is 134, exporled = 1
+w is 159, exporled = 1
+w is 196, exporled = 1
+w is 235, exporled = 0
+Explore insert 235
+add 235
+v's degree 13, size of worklist: 4
+0 1 546 235 
+w is 133, exporled = 1
+WARN: exceed diameter=3 
+w is 134, exporled = 1
+w is 215, exporled = 1
+w is 267, exporled = 1
+w is 621, exporled = 0
+Explore insert 621
+add 621
+v's degree 10, size of worklist: 4
+0 1 546 621 
+w is 122, exporled = 1
+WARN: exceed diameter=3 
+w is 235, exporled = 1
+w is 408, exporled = 1
+w is 622, exporled = 0
+Explore insert 622
+add 622
+v's degree 19, size of worklist: 4
+0 1 546 622 
+w is 193, exporled = 1
+WARN: exceed diameter=3 
+w is 210, exporled = 1
+w is 335, exporled = 0
+Explore insert 335
+add 335
+v's degree 17, size of worklist: 4
+0 1 546 335 
+w is 62, exporled = 1
+WARN: exceed diameter=3 
+w is 99, exporled = 1
+w is 174, exporled = 0
+Explore insert 174
+add 174
+v's degree 15, size of worklist: 4
+0 1 546 174 
+w is 78, exporled = 1
+WARN: exceed diameter=3 
+w is 99, exporled = 1
+w is 173, exporled = 0
+Explore insert 173
+add 173
+v's degree 14, size of worklist: 4
+0 1 546 173 
+w is 9, exporled = 1
+WARN: exceed diameter=3 
+w is 56, exporled = 1
+w is 150, exporled = 1
+w is 174, exporled = 1
+w is 328, exporled = 0
+Explore insert 328
+add 328
+v's degree 42, size of worklist: 4
+0 1 546 328 
+w is 21, exporled = 1
+WARN: exceed diameter=3 
+w is 105, exporled = 1
+w is 140, exporled = 0
+Explore insert 140
+add 140
+v's degree 33, size of worklist: 4
+0 1 546 140 
+w is 21, exporled = 1
+WARN: exceed diameter=3 
+w is 141, exporled = 0
+Explore insert 141
+add 141
+v's degree 7, size of worklist: 4
+0 1 546 141 
+w is 140, exporled = 1
+WARN: exceed diameter=3 
+w is 142, exporled = 0
+Explore insert 142
+add 142
+v's degree 14, size of worklist: 4
+0 1 546 142 
+w is 140, exporled = 1
+WARN: exceed diameter=3 
+w is 141, exporled = 1
+w is 143, exporled = 0
+Explore insert 143
+add 143
+v's degree 12, size of worklist: 4
+0 1 546 143 
+w is 84, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 84
+add 84
+v's degree 8, size of worklist: 4
+0 1 546 84 
+w is 85, exporled = 1
+WARN: exceed diameter=3 
+w is 103, exporled = 0
+Explore insert 103
+add 103
+v's degree 20, size of worklist: 4
+0 1 546 103 
+w is 13, exporled = 1
+WARN: exceed diameter=3 
+w is 78, exporled = 1
+w is 84, exporled = 1
+w is 104, exporled = 0
+Explore insert 104
+add 104
+v's degree 11, size of worklist: 4
+0 1 546 104 
+w is 19, exporled = 1
+WARN: exceed diameter=3 
+w is 21, exporled = 1
+w is 25, exporled = 0
+Explore insert 25
+add 25
+v's degree 8, size of worklist: 4
+0 1 546 25 
+w is 21, exporled = 1
+WARN: exceed diameter=3 
+w is 23, exporled = 0
+Explore insert 23
+add 23
+v's degree 24, size of worklist: 4
+0 1 546 23 
+w is 24, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 24
+add 24
+v's degree 2, size of worklist: 4
+0 1 546 24 
+w is 23, exporled = 1
+WARN: exceed diameter=3 
+w is 25, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 0
+Explore insert 705
+add 705
+v's degree 51, size of worklist: 3
+0 1 705 
+w is 1, exporled = 1
+w is 128, exporled = 1
+w is 131, exporled = 1
+w is 133, exporled = 1
+w is 134, exporled = 1
+w is 169, exporled = 1
+w is 170, exporled = 1
+w is 200, exporled = 1
+w is 235, exporled = 1
+w is 239, exporled = 1
+w is 261, exporled = 1
+w is 266, exporled = 1
+w is 267, exporled = 1
+w is 268, exporled = 0
+Explore insert 268
+add 268
+v's degree 23, size of worklist: 4
+0 1 705 268 
+w is 159, exporled = 1
+WARN: exceed diameter=3 
+w is 196, exporled = 1
+w is 267, exporled = 1
+w is 415, exporled = 0
+Explore insert 415
+add 415
+v's degree 28, size of worklist: 4
+0 1 705 415 
+w is 99, exporled = 1
+WARN: exceed diameter=3 
+w is 134, exporled = 1
+w is 267, exporled = 1
+w is 268, exporled = 1
+w is 292, exporled = 0
+Explore insert 292
+add 292
+v's degree 10, size of worklist: 4
+0 1 705 292 
+w is 293, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 293
+add 293
+v's degree 9, size of worklist: 4
+0 1 705 293 
+w is 292, exporled = 1
+WARN: exceed diameter=3 
+w is 513, exporled = 0
+Explore insert 513
+add 513
+v's degree 14, size of worklist: 4
+0 1 705 513 
+w is 271, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 271
+add 271
+v's degree 9, size of worklist: 4
+0 1 705 271 
+w is 14, exporled = 1
+WARN: exceed diameter=3 
+w is 270, exporled = 0
+Explore insert 270
+add 270
+v's degree 6, size of worklist: 4
+0 1 705 270 
+w is 14, exporled = 1
+WARN: exceed diameter=3 
+w is 271, exporled = 1
+w is 272, exporled = 0
+Explore insert 272
+add 272
+v's degree 15, size of worklist: 4
+0 1 705 272 
+w is 192, exporled = 1
+WARN: exceed diameter=3 
+w is 193, exporled = 1
+w is 194, exporled = 1
+w is 244, exporled = 0
+Explore insert 244
+add 244
+v's degree 14, size of worklist: 4
+0 1 705 244 
+w is 192, exporled = 1
+WARN: exceed diameter=3 
+w is 193, exporled = 1
+w is 194, exporled = 1
+w is 243, exporled = 0
+Explore insert 243
+add 243
+v's degree 6, size of worklist: 4
+0 1 705 243 
+w is 140, exporled = 1
+WARN: exceed diameter=3 
+w is 244, exporled = 1
+w is 273, exporled = 0
+Explore insert 273
+add 273
+v's degree 13, size of worklist: 4
+0 1 705 273 
+w is 140, exporled = 1
+WARN: exceed diameter=3 
+w is 243, exporled = 1
+w is 270, exporled = 1
+w is 271, exporled = 1
+w is 272, exporled = 1
+w is 331, exporled = 0
+Explore insert 331
+add 331
+v's degree 13, size of worklist: 4
+0 1 705 331 
+w is 73, exporled = 1
+WARN: exceed diameter=3 
+w is 74, exporled = 1
+w is 269, exporled = 0
+Explore insert 269
+add 269
+v's degree 15, size of worklist: 4
+0 1 705 269 
+w is 74, exporled = 1
+WARN: exceed diameter=3 
+w is 160, exporled = 0
+Explore insert 160
+add 160
+v's degree 11, size of worklist: 4
+0 1 705 160 
+w is 85, exporled = 1
+WARN: exceed diameter=3 
+w is 100, exporled = 1
+w is 269, exporled = 1
+w is 634, exporled = 0
+Explore insert 634
+add 634
+v's degree 45, size of worklist: 4
+0 1 705 634 
+w is 8, exporled = 1
+WARN: exceed diameter=3 
+WARN: Target find :0 1 
+w is 9, exporled = 1
+w is 10, exporled = 1
+w is 99, exporled = 1
+w is 108, exporled = 1
+w is 153, exporled = 1
+w is 160, exporled = 1
+w is 288, exporled = 1
+w is 328, exporled = 1
+w is 329, exporled = 0
+Explore insert 329
+add 329
+v's degree 25, size of worklist: 3
+0 1 329 
+w is 19, exporled = 1
+w is 56, exporled = 1
+w is 75, exporled = 1
+w is 77, exporled = 1
+w is 104, exporled = 1
+w is 129, exporled = 1
+w is 209, exporled = 1
+w is 330, exporled = 0
+Explore insert 330
+add 330
+v's degree 15, size of worklist: 4
+0 1 329 330 
+w is 56, exporled = 1
+WARN: exceed diameter=3 
+w is 129, exporled = 1
+w is 209, exporled = 1
+w is 329, exporled = 1
+w is 457, exporled = 0
+Explore insert 457
+add 457
+v's degree 37, size of worklist: 4
+0 1 329 457 
+w is 105, exporled = 1
+WARN: exceed diameter=3 
+w is 107, exporled = 1
+w is 207, exporled = 1
+w is 209, exporled = 1
+w is 246, exporled = 1
+w is 274, exporled = 1
+w is 328, exporled = 1
+w is 329, exporled = 1
+w is 330, exporled = 1
+w is 456, exporled = 0
+Explore insert 456
+add 456
+v's degree 4, size of worklist: 4
+0 1 329 456 
+w is 15, exporled = 1
+WARN: exceed diameter=3 
+w is 47, exporled = 1
+w is 457, exporled = 1
+w is 584, exporled = 0
+Explore insert 584
+add 584
+v's degree 7, size of worklist: 4
+0 1 329 584 
+w is 47, exporled = 1
+WARN: exceed diameter=3 
+w is 456, exporled = 1
+w is 540, exporled = 0
+Explore insert 540
+add 540
+v's degree 3, size of worklist: 4
+0 1 329 540 
+w is 541, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 541
+add 541
+v's degree 2, size of worklist: 4
+0 1 329 541 
+w is 540, exporled = 1
+WARN: exceed diameter=3 
+w is 3956, exporled = 0
+Explore insert 3956
+add 3956
+v's degree 5, size of worklist: 4
+0 1 329 3956 
+w is 1, exporled = 1
+WARN: exceed diameter=3 
+w is 540, exporled = 1
+w is 541, exporled = 1
+w is 3746, exporled = 0
+Explore insert 3746
+add 3746
+v's degree 7, size of worklist: 4
+0 1 329 3746 
+w is 563, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 563
+add 563
+v's degree 38, size of worklist: 4
+0 1 329 563 
+w is 72, exporled = 1
+WARN: exceed diameter=3 
+w is 89, exporled = 1
+w is 124, exporled = 1
+w is 230, exporled = 1
+w is 236, exporled = 1
+w is 258, exporled = 1
+w is 478, exporled = 0
+Explore insert 478
+add 478
+v's degree 6, size of worklist: 4
+0 1 329 478 
+w is 479, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 479
+add 479
+v's degree 1, size of worklist: 4
+0 1 329 479 
+w is 478, exporled = 1
+WARN: exceed diameter=3 
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 0
+Explore insert 828
+add 828
+v's degree 25, size of worklist: 3
+0 1 828 
+w is 1, exporled = 1
+w is 19, exporled = 1
+w is 101, exporled = 0
+Explore insert 101
+add 101
+v's degree 7, size of worklist: 4
+0 1 828 101 
+w is 102, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 102
+add 102
+v's degree 1, size of worklist: 4
+0 1 828 102 
+w is 101, exporled = 1
+WARN: exceed diameter=3 
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 0
+Explore insert 1038
+add 1038
+v's degree 23, size of worklist: 3
+0 1 1038 
+w is 1, exporled = 1
+w is 41, exporled = 1
+w is 393, exporled = 0
+Explore insert 393
+add 393
+v's degree 17, size of worklist: 4
+0 1 1038 393 
+w is 392, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 392
+add 392
+v's degree 5, size of worklist: 4
+0 1 1038 392 
+w is 393, exporled = 1
+WARN: exceed diameter=3 
+w is 394, exporled = 0
+Explore insert 394
+add 394
+v's degree 3, size of worklist: 4
+0 1 1038 394 
+w is 392, exporled = 1
+WARN: exceed diameter=3 
+w is 393, exporled = 1
+w is 395, exporled = 0
+Explore insert 395
+add 395
+v's degree 4, size of worklist: 4
+0 1 1038 395 
+w is 392, exporled = 1
+WARN: exceed diameter=3 
+w is 393, exporled = 1
+w is 394, exporled = 1
+w is 449, exporled = 0
+Explore insert 449
+add 449
+v's degree 4, size of worklist: 4
+0 1 1038 449 
+w is 393, exporled = 1
+WARN: exceed diameter=3 
+w is 395, exporled = 1
+w is 1038, exporled = 1
+w is 3544, exporled = 0
+Explore insert 3544
+add 3544
+v's degree 2, size of worklist: 4
+0 1 1038 3544 
+w is 449, exporled = 1
+WARN: exceed diameter=3 
+w is 1038, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 0
+Explore insert 1175
+add 1175
+v's degree 36, size of worklist: 3
+0 1 1175 
+w is 1, exporled = 1
+w is 26, exporled = 1
+w is 177, exporled = 1
+w is 230, exporled = 1
+w is 238, exporled = 1
+w is 239, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 296, exporled = 1
+w is 415, exporled = 1
+w is 474, exporled = 1
+w is 661, exporled = 0
+Explore insert 661
+add 661
+v's degree 31, size of worklist: 4
+0 1 1175 661 
+w is 26, exporled = 1
+WARN: exceed diameter=3 
+w is 114, exporled = 1
+w is 131, exporled = 1
+w is 134, exporled = 1
+w is 200, exporled = 1
+w is 261, exporled = 1
+w is 263, exporled = 0
+Explore insert 263
+add 263
+v's degree 19, size of worklist: 4
+0 1 1175 263 
+w is 128, exporled = 1
+WARN: exceed diameter=3 
+w is 131, exporled = 1
+w is 200, exporled = 1
+w is 249, exporled = 0
+Explore insert 249
+add 249
+v's degree 20, size of worklist: 4
+0 1 1175 249 
+w is 128, exporled = 1
+WARN: exceed diameter=3 
+w is 248, exporled = 0
+Explore insert 248
+add 248
+v's degree 1, size of worklist: 4
+0 1 1175 248 
+w is 249, exporled = 1
+WARN: exceed diameter=3 
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 0
+Explore insert 1491
+add 1491
+v's degree 2, size of worklist: 3
+0 1 1491 
+w is 1, exporled = 1
+w is 5112, exporled = 0
+Explore insert 5112
+add 5112
+v's degree 1, size of worklist: 4
+0 1 1491 5112 
+w is 1491, exporled = 1
+WARN: exceed diameter=3 
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 0
+Explore insert 1727
+add 1727
+v's degree 4, size of worklist: 3
+0 1 1727 
+w is 1, exporled = 1
+w is 274, exporled = 1
+w is 5462, exporled = 0
+Explore insert 5462
+add 5462
+v's degree 5, size of worklist: 4
+0 1 1727 5462 
+w is 220, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 220
+add 220
+v's degree 16, size of worklist: 4
+0 1 1727 220 
+w is 140, exporled = 1
+WARN: exceed diameter=3 
+w is 219, exporled = 0
+Explore insert 219
+add 219
+v's degree 8, size of worklist: 4
+0 1 1727 219 
+w is 220, exporled = 1
+WARN: exceed diameter=3 
+w is 223, exporled = 0
+Explore insert 223
+add 223
+v's degree 7, size of worklist: 4
+0 1 1727 223 
+w is 7, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 7
+add 7
+v's degree 6, size of worklist: 4
+0 1 1727 7 
+w is 6, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 6
+add 6
+v's degree 1, size of worklist: 4
+0 1 1727 6 
+w is 7, exporled = 1
+WARN: exceed diameter=3 
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 0
+Explore insert 1765
+add 1765
+v's degree 34, size of worklist: 3
+0 1 1765 
+w is 1, exporled = 1
+w is 14, exporled = 1
+w is 26, exporled = 1
+w is 27, exporled = 1
+w is 100, exporled = 1
+w is 222, exporled = 0
+Explore insert 222
+add 222
+v's degree 18, size of worklist: 4
+0 1 1765 222 
+w is 15, exporled = 1
+WARN: exceed diameter=3 
+w is 130, exporled = 1
+w is 220, exporled = 1
+w is 383, exporled = 0
+Explore insert 383
+add 383
+v's degree 16, size of worklist: 4
+0 1 1765 383 
+w is 27, exporled = 1
+WARN: exceed diameter=3 
+w is 80, exporled = 1
+w is 163, exporled = 1
+w is 222, exporled = 1
+w is 335, exporled = 1
+w is 382, exporled = 1
+w is 627, exporled = 0
+Explore insert 627
+add 627
+v's degree 24, size of worklist: 4
+0 1 1765 627 
+w is 19, exporled = 1
+WARN: exceed diameter=3 
+w is 27, exporled = 1
+w is 80, exporled = 1
+w is 100, exporled = 1
+w is 163, exporled = 1
+w is 266, exporled = 1
+w is 274, exporled = 1
+w is 382, exporled = 1
+w is 383, exporled = 1
+w is 444, exporled = 1
+w is 482, exporled = 1
+w is 624, exporled = 0
+Explore insert 624
+add 624
+v's degree 43, size of worklist: 4
+0 1 1765 624 
+w is 27, exporled = 1
+WARN: exceed diameter=3 
+w is 99, exporled = 1
+w is 265, exporled = 1
+w is 266, exporled = 1
+w is 267, exporled = 1
+w is 287, exporled = 1
+w is 328, exporled = 1
+w is 359, exporled = 0
+Explore insert 359
+add 359
+v's degree 37, size of worklist: 4
+0 1 1765 359 
+w is 74, exporled = 1
+WARN: exceed diameter=3 
+w is 79, exporled = 1
+w is 180, exporled = 0
+Explore insert 180
+add 180
+v's degree 6, size of worklist: 4
+0 1 1765 180 
+w is 178, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 178
+add 178
+v's degree 3, size of worklist: 4
+0 1 1765 178 
+w is 179, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 179
+add 179
+v's degree 2, size of worklist: 4
+0 1 1765 179 
+w is 178, exporled = 1
+WARN: exceed diameter=3 
+w is 180, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 0
+Explore insert 2273
+add 2273
+v's degree 32, size of worklist: 3
+0 1 2273 
+w is 1, exporled = 1
+w is 4, exporled = 1
+w is 12, exporled = 1
+w is 33, exporled = 1
+w is 80, exporled = 1
+w is 81, exporled = 1
+w is 99, exporled = 1
+w is 131, exporled = 1
+w is 163, exporled = 1
+w is 200, exporled = 1
+w is 239, exporled = 1
+w is 251, exporled = 0
+Explore insert 251
+add 251
+v's degree 38, size of worklist: 4
+0 1 2273 251 
+w is 4, exporled = 1
+WARN: exceed diameter=3 
+w is 8, exporled = 1
+WARN: Target find :0 1 
+w is 9, exporled = 1
+w is 94, exporled = 1
+w is 130, exporled = 1
+w is 142, exporled = 1
+w is 168, exporled = 1
+w is 196, exporled = 1
+w is 250, exporled = 0
+Explore insert 250
+add 250
+v's degree 2, size of worklist: 3
+0 1 250 
+w is 9, exporled = 1
+w is 251, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 0
+Explore insert 2807
+add 2807
+v's degree 23, size of worklist: 3
+0 1 2807 
+w is 1, exporled = 1
+w is 15, exporled = 1
+w is 26, exporled = 1
+w is 27, exporled = 1
+w is 86, exporled = 1
+w is 87, exporled = 0
+Explore insert 87
+add 87
+v's degree 16, size of worklist: 4
+0 1 2807 87 
+w is 86, exporled = 1
+WARN: exceed diameter=3 
+w is 88, exporled = 1
+w is 610, exporled = 0
+Explore insert 610
+add 610
+v's degree 23, size of worklist: 4
+0 1 2807 610 
+w is 14, exporled = 1
+WARN: exceed diameter=3 
+w is 43, exporled = 1
+w is 48, exporled = 1
+w is 56, exporled = 1
+w is 87, exporled = 1
+w is 88, exporled = 1
+w is 205, exporled = 0
+Explore insert 205
+add 205
+v's degree 28, size of worklist: 4
+0 1 2807 205 
+w is 43, exporled = 1
+WARN: exceed diameter=3 
+w is 88, exporled = 1
+w is 100, exporled = 1
+w is 155, exporled = 0
+Explore insert 155
+add 155
+v's degree 22, size of worklist: 4
+0 1 2807 155 
+w is 3, exporled = 1
+WARN: exceed diameter=3 
+w is 4, exporled = 1
+w is 10, exporled = 1
+w is 12, exporled = 1
+w is 28, exporled = 1
+w is 48, exporled = 1
+w is 100, exporled = 1
+w is 129, exporled = 1
+w is 168, exporled = 1
+w is 205, exporled = 1
+w is 206, exporled = 0
+Explore insert 206
+add 206
+v's degree 5, size of worklist: 4
+0 1 2807 206 
+w is 4, exporled = 1
+WARN: exceed diameter=3 
+w is 100, exporled = 1
+w is 155, exporled = 1
+w is 204, exporled = 0
+Explore insert 204
+add 204
+v's degree 11, size of worklist: 4
+0 1 2807 204 
+w is 12, exporled = 1
+WARN: exceed diameter=3 
+w is 100, exporled = 1
+w is 158, exporled = 1
+w is 196, exporled = 1
+w is 205, exporled = 1
+w is 206, exporled = 1
+w is 390, exporled = 0
+Explore insert 390
+add 390
+v's degree 3, size of worklist: 4
+0 1 2807 390 
+w is 15, exporled = 1
+WARN: exceed diameter=3 
+w is 204, exporled = 1
+w is 511, exporled = 0
+Explore insert 511
+add 511
+v's degree 18, size of worklist: 4
+0 1 2807 511 
+w is 12, exporled = 1
+WARN: exceed diameter=3 
+w is 36, exporled = 1
+w is 68, exporled = 1
+w is 92, exporled = 1
+w is 204, exporled = 1
+w is 390, exporled = 1
+w is 510, exporled = 0
+Explore insert 510
+add 510
+v's degree 4, size of worklist: 4
+0 1 2807 510 
+w is 363, exporled = 1
+WARN: exceed diameter=3 
+w is 511, exporled = 1
+w is 810, exporled = 0
+Explore insert 810
+add 810
+v's degree 3, size of worklist: 4
+0 1 2807 810 
+w is 510, exporled = 1
+WARN: exceed diameter=3 
+w is 811, exporled = 0
+Explore insert 811
+add 811
+v's degree 2, size of worklist: 4
+0 1 2807 811 
+w is 510, exporled = 1
+WARN: exceed diameter=3 
+w is 810, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 1
+w is 2833, exporled = 0
+Explore insert 2833
+add 2833
+v's degree 20, size of worklist: 3
+0 1 2833 
+w is 1, exporled = 1
+w is 274, exporled = 1
+w is 296, exporled = 1
+w is 431, exporled = 0
+Explore insert 431
+add 431
+v's degree 7, size of worklist: 4
+0 1 2833 431 
+w is 192, exporled = 1
+WARN: exceed diameter=3 
+w is 203, exporled = 0
+Explore insert 203
+add 203
+v's degree 5, size of worklist: 4
+0 1 2833 203 
+w is 192, exporled = 1
+WARN: exceed diameter=3 
+w is 312, exporled = 0
+Explore insert 312
+add 312
+v's degree 21, size of worklist: 4
+0 1 2833 312 
+w is 192, exporled = 1
+WARN: exceed diameter=3 
+w is 194, exporled = 1
+w is 203, exporled = 1
+w is 311, exporled = 0
+Explore insert 311
+add 311
+v's degree 12, size of worklist: 4
+0 1 2833 311 
+w is 140, exporled = 1
+WARN: exceed diameter=3 
+w is 312, exporled = 1
+w is 409, exporled = 0
+Explore insert 409
+add 409
+v's degree 16, size of worklist: 4
+0 1 2833 409 
+w is 57, exporled = 1
+WARN: exceed diameter=3 
+w is 194, exporled = 1
+w is 311, exporled = 1
+w is 312, exporled = 1
+w is 408, exporled = 1
+w is 599, exporled = 0
+Explore insert 599
+add 599
+v's degree 42, size of worklist: 4
+0 1 2833 599 
+w is 230, exporled = 1
+WARN: exceed diameter=3 
+w is 237, exporled = 1
+w is 409, exporled = 1
+w is 502, exporled = 0
+Explore insert 502
+add 502
+v's degree 11, size of worklist: 4
+0 1 2833 502 
+w is 72, exporled = 1
+WARN: exceed diameter=3 
+w is 258, exporled = 1
+w is 354, exporled = 0
+Explore insert 354
+add 354
+v's degree 27, size of worklist: 4
+0 1 2833 354 
+w is 14, exporled = 1
+WARN: exceed diameter=3 
+w is 15, exporled = 1
+w is 28, exporled = 1
+w is 85, exporled = 1
+w is 100, exporled = 1
+w is 155, exporled = 1
+w is 258, exporled = 1
+w is 353, exporled = 0
+Explore insert 353
+add 353
+v's degree 5, size of worklist: 4
+0 1 2833 353 
+w is 354, exporled = 1
+WARN: exceed diameter=3 
+w is 6106, exporled = 0
+Explore insert 6106
+add 6106
+v's degree 7, size of worklist: 4
+0 1 2833 6106 
+w is 353, exporled = 1
+WARN: exceed diameter=3 
+w is 3423, exporled = 0
+Explore insert 3423
+add 3423
+v's degree 10, size of worklist: 4
+0 1 2833 3423 
+w is 1843, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 1843
+add 1843
+v's degree 11, size of worklist: 4
+0 1 2833 1843 
+w is 639, exporled = 1
+WARN: exceed diameter=3 
+w is 1689, exporled = 0
+Explore insert 1689
+add 1689
+v's degree 32, size of worklist: 4
+0 1 2833 1689 
+w is 99, exporled = 1
+WARN: exceed diameter=3 
+w is 326, exporled = 0
+Explore insert 326
+add 326
+v's degree 46, size of worklist: 4
+0 1 2833 326 
+w is 99, exporled = 1
+WARN: exceed diameter=3 
+w is 131, exporled = 1
+w is 134, exporled = 1
+w is 200, exporled = 1
+w is 261, exporled = 1
+w is 263, exporled = 1
+w is 327, exporled = 0
+Explore insert 327
+add 327
+v's degree 4, size of worklist: 4
+0 1 2833 327 
+w is 326, exporled = 1
+WARN: exceed diameter=3 
+w is 328, exporled = 1
+w is 643, exporled = 0
+Explore insert 643
+add 643
+v's degree 3, size of worklist: 4
+0 1 2833 643 
+w is 326, exporled = 1
+WARN: exceed diameter=3 
+w is 327, exporled = 1
+w is 1080, exporled = 0
+Explore insert 1080
+add 1080
+v's degree 3, size of worklist: 4
+0 1 2833 1080 
+w is 326, exporled = 1
+WARN: exceed diameter=3 
+w is 327, exporled = 1
+w is 643, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 1
+w is 2833, exporled = 1
+w is 3956, exporled = 1
+w is 4158, exporled = 0
+Explore insert 4158
+add 4158
+v's degree 18, size of worklist: 3
+0 1 4158 
+w is 1, exporled = 1
+w is 128, exporled = 1
+w is 156, exporled = 1
+w is 230, exporled = 1
+w is 599, exporled = 1
+w is 646, exporled = 0
+Explore insert 646
+add 646
+v's degree 34, size of worklist: 4
+0 1 4158 646 
+w is 128, exporled = 1
+WARN: exceed diameter=3 
+w is 258, exporled = 1
+w is 599, exporled = 1
+w is 647, exporled = 0
+Explore insert 647
+add 647
+v's degree 5, size of worklist: 4
+0 1 4158 647 
+w is 646, exporled = 1
+WARN: exceed diameter=3 
+w is 648, exporled = 1
+w is 1651, exporled = 0
+Explore insert 1651
+add 1651
+v's degree 1, size of worklist: 4
+0 1 4158 1651 
+w is 647, exporled = 1
+WARN: exceed diameter=3 
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 1
+w is 2833, exporled = 1
+w is 3956, exporled = 1
+w is 4158, exporled = 1
+w is 5371, exporled = 0
+Explore insert 5371
+add 5371
+v's degree 3, size of worklist: 3
+0 1 5371 
+w is 1, exporled = 1
+w is 474, exporled = 1
+w is 1175, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 1
+w is 2833, exporled = 1
+w is 3956, exporled = 1
+w is 4158, exporled = 1
+w is 5371, exporled = 1
+w is 6009, exporled = 0
+Explore insert 6009
+add 6009
+v's degree 19, size of worklist: 3
+0 1 6009 
+w is 1, exporled = 1
+w is 8, exporled = 1
+WARN: Target find :0 1 
+w is 9, exporled = 1
+w is 80, exporled = 1
+w is 99, exporled = 1
+w is 308, exporled = 0
+Explore insert 308
+add 308
+v's degree 15, size of worklist: 3
+0 1 308 
+w is 4, exporled = 1
+w is 80, exporled = 1
+w is 99, exporled = 1
+w is 275, exporled = 0
+Explore insert 275
+add 275
+v's degree 11, size of worklist: 4
+0 1 308 275 
+w is 274, exporled = 1
+WARN: exceed diameter=3 
+w is 308, exporled = 1
+w is 428, exporled = 0
+Explore insert 428
+add 428
+v's degree 2, size of worklist: 4
+0 1 308 428 
+w is 275, exporled = 1
+WARN: exceed diameter=3 
+w is 429, exporled = 0
+Explore insert 429
+add 429
+v's degree 6, size of worklist: 4
+0 1 308 429 
+w is 428, exporled = 1
+WARN: exceed diameter=3 
+w is 759, exporled = 0
+Explore insert 759
+add 759
+v's degree 10, size of worklist: 4
+0 1 308 759 
+w is 274, exporled = 1
+WARN: exceed diameter=3 
+w is 391, exporled = 0
+Explore insert 391
+add 391
+v's degree 6, size of worklist: 4
+0 1 308 391 
+w is 44, exporled = 1
+WARN: exceed diameter=3 
+w is 465, exporled = 0
+Explore insert 465
+add 465
+v's degree 10, size of worklist: 4
+0 1 308 465 
+w is 19, exporled = 1
+WARN: exceed diameter=3 
+w is 43, exporled = 1
+w is 100, exporled = 1
+w is 130, exporled = 1
+w is 310, exporled = 0
+Explore insert 310
+add 310
+v's degree 27, size of worklist: 4
+0 1 308 310 
+w is 48, exporled = 1
+WARN: exceed diameter=3 
+w is 79, exporled = 1
+w is 88, exporled = 1
+w is 94, exporled = 1
+w is 99, exporled = 1
+w is 122, exporled = 1
+w is 153, exporled = 1
+w is 157, exporled = 1
+w is 205, exporled = 1
+w is 363, exporled = 1
+w is 465, exporled = 1
+w is 512, exporled = 0
+Explore insert 512
+add 512
+v's degree 33, size of worklist: 4
+0 1 308 512 
+w is 79, exporled = 1
+WARN: exceed diameter=3 
+w is 118, exporled = 1
+w is 287, exporled = 1
+w is 310, exporled = 1
+w is 440, exporled = 0
+Explore insert 440
+add 440
+v's degree 18, size of worklist: 4
+0 1 308 440 
+w is 79, exporled = 1
+WARN: exceed diameter=3 
+w is 100, exporled = 1
+w is 287, exporled = 1
+w is 328, exporled = 1
+w is 439, exporled = 0
+Explore insert 439
+add 439
+v's degree 10, size of worklist: 4
+0 1 308 439 
+w is 249, exporled = 1
+WARN: exceed diameter=3 
+w is 440, exporled = 1
+w is 600, exporled = 0
+Explore insert 600
+add 600
+v's degree 4, size of worklist: 4
+0 1 308 600 
+w is 439, exporled = 1
+WARN: exceed diameter=3 
+w is 601, exporled = 0
+Explore insert 601
+add 601
+v's degree 10, size of worklist: 4
+0 1 308 601 
+w is 334, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 334
+add 334
+v's degree 7, size of worklist: 4
+0 1 308 334 
+w is 134, exporled = 1
+WARN: exceed diameter=3 
+w is 417, exporled = 0
+Explore insert 417
+add 417
+v's degree 26, size of worklist: 4
+0 1 308 417 
+w is 28, exporled = 1
+WARN: exceed diameter=3 
+w is 133, exporled = 1
+w is 134, exporled = 1
+w is 334, exporled = 1
+w is 415, exporled = 1
+w is 498, exporled = 0
+Explore insert 498
+add 498
+v's degree 22, size of worklist: 4
+0 1 308 498 
+w is 133, exporled = 1
+WARN: exceed diameter=3 
+w is 267, exporled = 1
+w is 287, exporled = 1
+w is 334, exporled = 1
+w is 417, exporled = 1
+w is 535, exporled = 0
+Explore insert 535
+add 535
+v's degree 35, size of worklist: 4
+0 1 308 535 
+w is 23, exporled = 1
+WARN: exceed diameter=3 
+w is 156, exporled = 1
+w is 334, exporled = 1
+w is 498, exporled = 1
+w is 517, exporled = 0
+Explore insert 517
+add 517
+v's degree 16, size of worklist: 4
+0 1 308 517 
+w is 515, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 515
+add 515
+v's degree 31, size of worklist: 4
+0 1 308 515 
+w is 30, exporled = 1
+WARN: exceed diameter=3 
+w is 157, exporled = 1
+w is 240, exporled = 1
+w is 246, exporled = 1
+w is 330, exporled = 1
+w is 363, exporled = 1
+w is 509, exporled = 0
+Explore insert 509
+add 509
+v's degree 12, size of worklist: 4
+0 1 308 509 
+w is 508, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 508
+add 508
+v's degree 2, size of worklist: 4
+0 1 308 508 
+w is 509, exporled = 1
+WARN: exceed diameter=3 
+w is 4432, exporled = 0
+Explore insert 4432
+add 4432
+v's degree 10, size of worklist: 4
+0 1 308 4432 
+w is 508, exporled = 1
+WARN: exceed diameter=3 
+w is 509, exporled = 1
+w is 1449, exporled = 0
+Explore insert 1449
+add 1449
+v's degree 27, size of worklist: 4
+0 1 308 1449 
+w is 638, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 638
+add 638
+v's degree 28, size of worklist: 4
+0 1 308 638 
+w is 639, exporled = 1
+WARN: exceed diameter=3 
+w is 744, exporled = 0
+Explore insert 744
+add 744
+v's degree 25, size of worklist: 4
+0 1 308 744 
+w is 221, exporled = 1
+WARN: exceed diameter=3 
+w is 326, exporled = 1
+w is 515, exporled = 1
+w is 638, exporled = 1
+w is 639, exporled = 1
+w is 745, exporled = 0
+Explore insert 745
+add 745
+v's degree 6, size of worklist: 4
+0 1 308 745 
+w is 744, exporled = 1
+WARN: exceed diameter=3 
+w is 1304, exporled = 0
+Explore insert 1304
+add 1304
+v's degree 8, size of worklist: 4
+0 1 308 1304 
+w is 745, exporled = 1
+WARN: exceed diameter=3 
+w is 977, exporled = 0
+Explore insert 977
+add 977
+v's degree 5, size of worklist: 4
+0 1 308 977 
+w is 605, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 605
+add 605
+v's degree 12, size of worklist: 4
+0 1 308 605 
+w is 606, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 606
+add 606
+v's degree 50, size of worklist: 4
+0 1 308 606 
+w is 153, exporled = 1
+WARN: exceed diameter=3 
+w is 159, exporled = 1
+w is 221, exporled = 1
+w is 260, exporled = 1
+w is 302, exporled = 0
+Explore insert 302
+add 302
+v's degree 8, size of worklist: 4
+0 1 308 302 
+w is 300, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 300
+add 300
+v's degree 6, size of worklist: 4
+0 1 308 300 
+w is 301, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 301
+add 301
+v's degree 4, size of worklist: 4
+0 1 308 301 
+w is 300, exporled = 1
+WARN: exceed diameter=3 
+w is 302, exporled = 1
+w is 841, exporled = 0
+Explore insert 841
+add 841
+v's degree 5, size of worklist: 4
+0 1 308 841 
+w is 219, exporled = 1
+WARN: exceed diameter=3 
+w is 300, exporled = 1
+w is 301, exporled = 1
+w is 302, exporled = 1
+w is 1726, exporled = 0
+Explore insert 1726
+add 1726
+v's degree 4, size of worklist: 4
+0 1 308 1726 
+w is 300, exporled = 1
+WARN: exceed diameter=3 
+w is 301, exporled = 1
+w is 302, exporled = 1
+w is 841, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 1
+w is 2833, exporled = 1
+w is 3956, exporled = 1
+w is 4158, exporled = 1
+w is 5371, exporled = 1
+w is 6009, exporled = 1
+w is 8536, exporled = 0
+Explore insert 8536
+add 8536
+v's degree 16, size of worklist: 3
+0 1 8536 
+w is 1, exporled = 1
+w is 4, exporled = 1
+w is 33, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 354, exporled = 1
+w is 525, exporled = 1
+w is 1256, exporled = 0
+Explore insert 1256
+add 1256
+v's degree 37, size of worklist: 4
+0 1 8536 1256 
+w is 8, exporled = 1
+WARN: exceed diameter=3 
+WARN: Target find :0 1 
+w is 80, exporled = 1
+w is 88, exporled = 1
+w is 125, exporled = 0
+Explore insert 125
+add 125
+v's degree 8, size of worklist: 3
+0 1 125 
+w is 8, exporled = 1
+WARN: Target find :0 1 
+w is 23, exporled = 1
+w is 75, exporled = 1
+w is 126, exporled = 0
+Explore insert 126
+add 126
+v's degree 4, size of worklist: 3
+0 1 126 
+w is 75, exporled = 1
+w is 125, exporled = 1
+w is 698, exporled = 0
+Explore insert 698
+add 698
+v's degree 5, size of worklist: 4
+0 1 126 698 
+w is 126, exporled = 1
+WARN: exceed diameter=3 
+w is 642, exporled = 0
+Explore insert 642
+add 642
+v's degree 19, size of worklist: 4
+0 1 126 642 
+w is 14, exporled = 1
+WARN: exceed diameter=3 
+w is 48, exporled = 1
+w is 99, exporled = 1
+w is 100, exporled = 1
+w is 226, exporled = 1
+w is 480, exporled = 0
+Explore insert 480
+add 480
+v's degree 15, size of worklist: 4
+0 1 126 480 
+w is 48, exporled = 1
+WARN: exceed diameter=3 
+w is 186, exporled = 1
+w is 385, exporled = 0
+Explore insert 385
+add 385
+v's degree 6, size of worklist: 4
+0 1 126 385 
+w is 41, exporled = 1
+WARN: exceed diameter=3 
+w is 384, exporled = 0
+Explore insert 384
+add 384
+v's degree 1, size of worklist: 4
+0 1 126 384 
+w is 385, exporled = 1
+WARN: exceed diameter=3 
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 1
+w is 2833, exporled = 1
+w is 3956, exporled = 1
+w is 4158, exporled = 1
+w is 5371, exporled = 1
+w is 6009, exporled = 1
+w is 8536, exporled = 1
+w is 9967, exporled = 0
+Explore insert 9967
+add 9967
+v's degree 1, size of worklist: 3
+0 1 9967 
+w is 1, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 1
+w is 2833, exporled = 1
+w is 3956, exporled = 1
+w is 4158, exporled = 1
+w is 5371, exporled = 1
+w is 6009, exporled = 1
+w is 8536, exporled = 1
+w is 9967, exporled = 1
+w is 10394, exporled = 0
+Explore insert 10394
+add 10394
+v's degree 5, size of worklist: 3
+0 1 10394 
+w is 1, exporled = 1
+w is 136, exporled = 1
+w is 382, exporled = 1
+w is 8745, exporled = 0
+Explore insert 8745
+add 8745
+v's degree 16, size of worklist: 4
+0 1 10394 8745 
+w is 80, exporled = 1
+WARN: exceed diameter=3 
+w is 88, exporled = 1
+w is 136, exporled = 1
+w is 239, exporled = 1
+w is 332, exporled = 1
+w is 363, exporled = 1
+w is 740, exporled = 0
+Explore insert 740
+add 740
+v's degree 16, size of worklist: 4
+0 1 10394 740 
+w is 80, exporled = 1
+WARN: exceed diameter=3 
+w is 100, exporled = 1
+w is 136, exporled = 1
+w is 140, exporled = 1
+w is 160, exporled = 1
+w is 739, exporled = 0
+Explore insert 739
+add 739
+v's degree 16, size of worklist: 4
+0 1 10394 739 
+w is 85, exporled = 1
+WARN: exceed diameter=3 
+w is 142, exporled = 1
+w is 143, exporled = 1
+w is 160, exporled = 1
+w is 311, exporled = 1
+w is 740, exporled = 1
+w is 760, exporled = 0
+Explore insert 760
+add 760
+v's degree 16, size of worklist: 4
+0 1 10394 760 
+w is 74, exporled = 1
+WARN: exceed diameter=3 
+w is 131, exporled = 1
+w is 140, exporled = 1
+w is 200, exporled = 1
+w is 201, exporled = 0
+Explore insert 201
+add 201
+v's degree 12, size of worklist: 4
+0 1 10394 201 
+w is 46, exporled = 1
+WARN: exceed diameter=3 
+w is 50, exporled = 1
+w is 131, exporled = 1
+w is 133, exporled = 1
+w is 134, exporled = 1
+w is 200, exporled = 1
+w is 738, exporled = 0
+Explore insert 738
+add 738
+v's degree 7, size of worklist: 4
+0 1 10394 738 
+w is 46, exporled = 1
+WARN: exceed diameter=3 
+w is 131, exporled = 1
+w is 133, exporled = 1
+w is 200, exporled = 1
+w is 201, exporled = 1
+w is 236, exporled = 1
+w is 5881, exporled = 0
+Explore insert 5881
+add 5881
+v's degree 3, size of worklist: 4
+0 1 10394 5881 
+w is 131, exporled = 1
+WARN: exceed diameter=3 
+w is 200, exporled = 1
+w is 738, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 1
+w is 2833, exporled = 1
+w is 3956, exporled = 1
+w is 4158, exporled = 1
+w is 5371, exporled = 1
+w is 6009, exporled = 1
+w is 8536, exporled = 1
+w is 9967, exporled = 1
+w is 10394, exporled = 1
+w is 11014, exporled = 0
+Explore insert 11014
+add 11014
+v's degree 7, size of worklist: 3
+0 1 11014 
+w is 1, exporled = 1
+w is 592, exporled = 1
+w is 2807, exporled = 1
+w is 5118, exporled = 0
+Explore insert 5118
+add 5118
+v's degree 11, size of worklist: 4
+0 1 11014 5118 
+w is 26, exporled = 1
+WARN: exceed diameter=3 
+w is 56, exporled = 1
+w is 363, exporled = 1
+w is 1485, exporled = 0
+Explore insert 1485
+add 1485
+v's degree 18, size of worklist: 4
+0 1 11014 1485 
+w is 354, exporled = 1
+WARN: exceed diameter=3 
+w is 717, exporled = 0
+Explore insert 717
+add 717
+v's degree 13, size of worklist: 4
+0 1 11014 717 
+w is 193, exporled = 1
+WARN: exceed diameter=3 
+w is 410, exporled = 0
+Explore insert 410
+add 410
+v's degree 5, size of worklist: 4
+0 1 11014 410 
+w is 411, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 411
+add 411
+v's degree 8, size of worklist: 4
+0 1 11014 411 
+w is 410, exporled = 1
+WARN: exceed diameter=3 
+w is 412, exporled = 0
+Explore insert 412
+add 412
+v's degree 34, size of worklist: 4
+0 1 11014 412 
+w is 210, exporled = 1
+WARN: exceed diameter=3 
+w is 410, exporled = 1
+w is 411, exporled = 1
+w is 418, exporled = 0
+Explore insert 418
+add 418
+v's degree 2, size of worklist: 4
+0 1 11014 418 
+w is 410, exporled = 1
+WARN: exceed diameter=3 
+w is 412, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 1
+w is 2833, exporled = 1
+w is 3956, exporled = 1
+w is 4158, exporled = 1
+w is 5371, exporled = 1
+w is 6009, exporled = 1
+w is 8536, exporled = 1
+w is 9967, exporled = 1
+w is 10394, exporled = 1
+w is 11014, exporled = 1
+w is 11248, exporled = 0
+Explore insert 11248
+add 11248
+v's degree 3, size of worklist: 3
+0 1 11248 
+w is 1, exporled = 1
+w is 3502, exporled = 0
+Explore insert 3502
+add 3502
+v's degree 5, size of worklist: 4
+0 1 11248 3502 
+w is 3501, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 3501
+add 3501
+v's degree 3, size of worklist: 4
+0 1 11248 3501 
+w is 3502, exporled = 1
+WARN: exceed diameter=3 
+w is 3503, exporled = 0
+Explore insert 3503
+add 3503
+v's degree 2, size of worklist: 4
+0 1 11248 3503 
+w is 3501, exporled = 1
+WARN: exceed diameter=3 
+w is 3502, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 1
+w is 2833, exporled = 1
+w is 3956, exporled = 1
+w is 4158, exporled = 1
+w is 5371, exporled = 1
+w is 6009, exporled = 1
+w is 8536, exporled = 1
+w is 9967, exporled = 1
+w is 10394, exporled = 1
+w is 11014, exporled = 1
+w is 11248, exporled = 1
+w is 11891, exporled = 0
+Explore insert 11891
+add 11891
+v's degree 9, size of worklist: 3
+0 1 11891 
+w is 1, exporled = 1
+w is 128, exporled = 1
+w is 525, exporled = 1
+w is 800, exporled = 0
+Explore insert 800
+add 800
+v's degree 18, size of worklist: 4
+0 1 11891 800 
+w is 128, exporled = 1
+WARN: exceed diameter=3 
+w is 236, exporled = 1
+w is 249, exporled = 1
+w is 263, exporled = 1
+w is 289, exporled = 0
+Explore insert 289
+add 289
+v's degree 4, size of worklist: 4
+0 1 11891 289 
+w is 189, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 189
+add 189
+v's degree 8, size of worklist: 4
+0 1 11891 189 
+w is 100, exporled = 1
+WARN: exceed diameter=3 
+w is 188, exporled = 0
+Explore insert 188
+add 188
+v's degree 5, size of worklist: 4
+0 1 11891 188 
+w is 189, exporled = 1
+WARN: exceed diameter=3 
+w is 1297, exporled = 0
+Explore insert 1297
+add 1297
+v's degree 13, size of worklist: 4
+0 1 11891 1297 
+w is 151, exporled = 1
+WARN: exceed diameter=3 
+w is 153, exporled = 1
+w is 188, exporled = 1
+w is 488, exporled = 0
+Explore insert 488
+add 488
+v's degree 9, size of worklist: 4
+0 1 11891 488 
+w is 149, exporled = 1
+WARN: exceed diameter=3 
+w is 151, exporled = 1
+w is 171, exporled = 0
+Explore insert 171
+add 171
+v's degree 10, size of worklist: 4
+0 1 11891 171 
+w is 60, exporled = 1
+WARN: exceed diameter=3 
+w is 61, exporled = 1
+w is 96, exporled = 1
+w is 149, exporled = 1
+w is 151, exporled = 1
+w is 438, exporled = 0
+Explore insert 438
+add 438
+v's degree 8, size of worklist: 4
+0 1 11891 438 
+w is 61, exporled = 1
+WARN: exceed diameter=3 
+w is 171, exporled = 1
+w is 393, exporled = 1
+w is 437, exporled = 0
+Explore insert 437
+add 437
+v's degree 17, size of worklist: 4
+0 1 11891 437 
+w is 5, exporled = 1
+WARN: exceed diameter=3 
+w is 41, exporled = 1
+w is 112, exporled = 1
+w is 315, exporled = 1
+w is 381, exporled = 1
+w is 438, exporled = 1
+w is 771, exporled = 0
+Explore insert 771
+add 771
+v's degree 7, size of worklist: 4
+0 1 11891 771 
+w is 128, exporled = 1
+WARN: exceed diameter=3 
+w is 437, exporled = 1
+w is 438, exporled = 1
+w is 890, exporled = 0
+Explore insert 890
+add 890
+v's degree 14, size of worklist: 4
+0 1 11891 890 
+w is 99, exporled = 1
+WARN: exceed diameter=3 
+w is 128, exporled = 1
+w is 221, exporled = 1
+w is 771, exporled = 1
+w is 1156, exporled = 0
+Explore insert 1156
+add 1156
+v's degree 27, size of worklist: 4
+0 1 11891 1156 
+w is 157, exporled = 1
+WARN: exceed diameter=3 
+w is 221, exporled = 1
+w is 417, exporled = 1
+w is 483, exporled = 0
+Explore insert 483
+add 483
+v's degree 4, size of worklist: 4
+0 1 11891 483 
+w is 157, exporled = 1
+WARN: exceed diameter=3 
+w is 484, exporled = 0
+Explore insert 484
+add 484
+v's degree 2, size of worklist: 4
+0 1 11891 484 
+w is 483, exporled = 1
+WARN: exceed diameter=3 
+w is 770, exporled = 0
+Explore insert 770
+add 770
+v's degree 11, size of worklist: 4
+0 1 11891 770 
+w is 7, exporled = 1
+WARN: exceed diameter=3 
+w is 484, exporled = 1
+w is 769, exporled = 0
+Explore insert 769
+add 769
+v's degree 4, size of worklist: 4
+0 1 11891 769 
+w is 770, exporled = 1
+WARN: exceed diameter=3 
+w is 1306, exporled = 0
+Explore insert 1306
+add 1306
+v's degree 5, size of worklist: 4
+0 1 11891 1306 
+w is 769, exporled = 1
+WARN: exceed diameter=3 
+w is 770, exporled = 1
+w is 1307, exporled = 0
+Explore insert 1307
+add 1307
+v's degree 7, size of worklist: 4
+0 1 11891 1307 
+w is 769, exporled = 1
+WARN: exceed diameter=3 
+w is 770, exporled = 1
+w is 1306, exporled = 1
+w is 1308, exporled = 0
+Explore insert 1308
+add 1308
+v's degree 7, size of worklist: 4
+0 1 11891 1308 
+w is 770, exporled = 1
+WARN: exceed diameter=3 
+w is 1040, exporled = 0
+Explore insert 1040
+add 1040
+v's degree 4, size of worklist: 4
+0 1 11891 1040 
+w is 1039, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 1039
+add 1039
+v's degree 8, size of worklist: 4
+0 1 11891 1039 
+w is 424, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 424
+add 424
+v's degree 5, size of worklist: 4
+0 1 11891 424 
+w is 305, exporled = 1
+WARN: exceed diameter=3 
+w is 425, exporled = 1
+w is 569, exporled = 0
+Explore insert 569
+add 569
+v's degree 6, size of worklist: 4
+0 1 11891 569 
+w is 424, exporled = 1
+WARN: exceed diameter=3 
+w is 570, exporled = 0
+Explore insert 570
+add 570
+v's degree 12, size of worklist: 4
+0 1 11891 570 
+w is 350, exporled = 1
+WARN: exceed diameter=3 
+w is 351, exporled = 1
+w is 523, exporled = 0
+Explore insert 523
+add 523
+v's degree 13, size of worklist: 4
+0 1 11891 523 
+w is 165, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 165
+add 165
+v's degree 4, size of worklist: 4
+0 1 11891 165 
+w is 166, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 166
+add 166
+v's degree 4, size of worklist: 4
+0 1 11891 166 
+w is 165, exporled = 1
+WARN: exceed diameter=3 
+w is 522, exporled = 0
+Explore insert 522
+add 522
+v's degree 5, size of worklist: 4
+0 1 11891 522 
+w is 165, exporled = 1
+WARN: exceed diameter=3 
+w is 166, exporled = 1
+w is 523, exporled = 1
+w is 524, exporled = 0
+Explore insert 524
+add 524
+v's degree 11, size of worklist: 4
+0 1 11891 524 
+w is 165, exporled = 1
+WARN: exceed diameter=3 
+w is 166, exporled = 1
+w is 454, exporled = 1
+w is 522, exporled = 1
+w is 523, exporled = 1
+w is 1599, exporled = 1
+w is 1769, exporled = 0
+Explore insert 1769
+add 1769
+v's degree 9, size of worklist: 4
+0 1 11891 1769 
+w is 454, exporled = 1
+WARN: exceed diameter=3 
+w is 524, exporled = 1
+w is 570, exporled = 1
+w is 1264, exporled = 0
+Explore insert 1264
+add 1264
+v's degree 8, size of worklist: 4
+0 1 11891 1264 
+w is 990, exporled = 0
+WARN: exceed diameter=3 
+Explore insert 990
+add 990
+v's degree 12, size of worklist: 4
+0 1 11891 990 
+w is 511, exporled = 1
+WARN: exceed diameter=3 
+w is 991, exporled = 0
+Explore insert 991
+add 991
+v's degree 15, size of worklist: 4
+0 1 11891 991 
+w is 15, exporled = 1
+WARN: exceed diameter=3 
+w is 80, exporled = 1
+w is 100, exporled = 1
+w is 196, exporled = 1
+w is 990, exporled = 1
+w is 1645, exporled = 0
+Explore insert 1645
+add 1645
+v's degree 34, size of worklist: 4
+0 1 11891 1645 
+w is 10, exporled = 1
+WARN: exceed diameter=3 
+w is 15, exporled = 1
+w is 26, exporled = 1
+w is 27, exporled = 1
+w is 84, exporled = 1
+w is 164, exporled = 1
+w is 261, exporled = 1
+w is 262, exporled = 0
+Explore insert 262
+add 262
+v's degree 14, size of worklist: 4
+0 1 11891 262 
+w is 19, exporled = 1
+WARN: exceed diameter=3 
+w is 261, exporled = 1
+w is 263, exporled = 1
+w is 274, exporled = 1
+w is 287, exporled = 1
+w is 358, exporled = 0
+Explore insert 358
+add 358
+v's degree 1, size of worklist: 4
+0 1 11891 358 
+w is 262, exporled = 1
+WARN: exceed diameter=3 
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 1
+w is 2833, exporled = 1
+w is 3956, exporled = 1
+w is 4158, exporled = 1
+w is 5371, exporled = 1
+w is 6009, exporled = 1
+w is 8536, exporled = 1
+w is 9967, exporled = 1
+w is 10394, exporled = 1
+w is 11014, exporled = 1
+w is 11248, exporled = 1
+w is 11891, exporled = 1
+w is 14752, exporled = 0
+Explore insert 14752
+add 14752
+v's degree 2, size of worklist: 3
+0 1 14752 
+w is 1, exporled = 1
+w is 635, exporled = 1
+add 1
+v's degree 41, size of worklist: 2
+0 1 
+w is 0, exporled = 1
+w is 4, exporled = 1
+w is 14, exporled = 1
+w is 27, exporled = 1
+w is 85, exporled = 1
+w is 86, exporled = 1
+w is 99, exporled = 1
+w is 177, exporled = 1
+w is 184, exporled = 1
+w is 234, exporled = 1
+w is 238, exporled = 1
+w is 274, exporled = 1
+w is 294, exporled = 1
+w is 382, exporled = 1
+w is 444, exporled = 1
+w is 474, exporled = 1
+w is 482, exporled = 1
+w is 525, exporled = 1
+w is 592, exporled = 1
+w is 635, exporled = 1
+w is 705, exporled = 1
+w is 828, exporled = 1
+w is 1038, exporled = 1
+w is 1175, exporled = 1
+w is 1491, exporled = 1
+w is 1727, exporled = 1
+w is 1765, exporled = 1
+w is 2273, exporled = 1
+w is 2807, exporled = 1
+w is 2833, exporled = 1
+w is 3956, exporled = 1
+w is 4158, exporled = 1
+w is 5371, exporled = 1
+w is 6009, exporled = 1
+w is 8536, exporled = 1
+w is 9967, exporled = 1
+w is 10394, exporled = 1
+w is 11014, exporled = 1
+w is 11248, exporled = 1
+w is 11891, exporled = 1
+w is 14752, exporled = 1
+add 0
+v's degree 3, size of worklist: 1
+0 
+w is 1, exporled = 1
+w is 15, exporled = 1
+w is 184, exporled = 1
+add 0
+v's degree 3, size of worklist: 1
+0 
+w is 1, exporled = 1
+w is 15, exporled = 1
+w is 184, exporled = 1
+0 1 14 8 
+0 1 8 8 
+0 1 482 8 
+0 1 592 8 
+0 1 83 8 
+0 1 705 8 
+0 1 2273 8 
+0 1 6009 8 
+0 1 8536 8 
+0 1 125 8 
+0th iteration
+Source-target is reached in Possible World #0
+Source-target is reached in Possible World #1
+Source-target is reached in Possible World #2
+Source-target is reached in Possible World #3
+Source-target is reached in Possible World #4
+Total num_reached: 5
+Current utilize : K=5 possible world.
+Reliability Estimator, R^ (0, 8) = 1
+Execution time = 0 ms
+
+0th iteration
+Source-target is reached in Possible World #0
+Source-target is reached in Possible World #1
+Source-target is reached in Possible World #2
+Source-target is reached in Possible World #3
+Source-target is reached in Possible World #4
+Total num_reached: 5
+Current utilize : K=5 possible world.
+Reliability Estimator, R^ (0, 12479) = 1
+Execution time = 0 ms
+
+Wall Time of CPU algorithm = 9 ms
+Done.

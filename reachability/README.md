@@ -13,7 +13,7 @@ BPGraph supports the following applications in the implementation, and other alg
 - K-Nearest Neighbors
 - Any-Pair Shortest Search
 
-# Processing
+# Scheduler
 
 Core: Dataflow for Uncertain Graph Traversaling
 ```
