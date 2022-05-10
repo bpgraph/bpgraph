@@ -3,7 +3,7 @@ Toward Enabling efficient uncertain graph processing on multi-accelerator system
 
 - BPGraph: Path-Sampling Centric Uncertain Graph Processing
 
-# BPGraph (version $\beta$)
+# BPGraph (version Beta)
 
 BPGraph is released under the MIT license.
 
