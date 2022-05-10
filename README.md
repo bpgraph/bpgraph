@@ -11,20 +11,6 @@ If you use BPGraph in your research, please cite our paper:
 
 - ICS'22, BPGraph
 
-```
-@inproceedings{cusz2020,
-    title = {Bring Orders into Uncertainty: Enabling Efficient Uncertain Graph Processing via Novel Path Sampling on Multi-Accelerator Systems},
-    author = {Zhang, Heng and Li, Lingda and Liu, Hang and Zhuang, Donglin and Liu, Rui and Huan, Chengying and Song, Shuang and Tao, Dingwen and Liu, Yongchao and He, Charles and Wu, Yanjun and Song, Shuaiwen Leon},
-    year = {2022},
-    publisher = {Association for Computing Machinery},
-    address = {New York, NY, USA},
-    doi = {10.1145/3524059.3532379},
-    booktitle = {2022 International Conference on Supercomputing},
-    location = {Virtual Event, USA},
-    series = {ICS '22}
-}
-```
-
 # Introduction
 
 BPGraph is based on a novel runtime path sampling method, which is able to identify and eliminate unnecessary edge sampling via incremental path identification and filtering, resulting in significant reduction in computation and data movement. BPGraph is a general uncertain graph processing framework for multi-GPU systems, and provides general support for users to design and optimize a wide-range of uncertain graph algorithms and applications without concerning about the underlying complexity. For more details, see [BPGraph's Overview]().
